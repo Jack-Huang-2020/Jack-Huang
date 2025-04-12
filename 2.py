@@ -3,7 +3,7 @@ import numpy as np
 import shutil
 
 # ASCII字符集，按视觉效果从深到浅排列
-ASCII_CHARS = '█▇▓▆▒▅▄░▂▁ '
+ASCII_CHARS = '█▓▒░ '
 
 def convert_to_ascii(gray_frame, cols=120, rows=40):
     # 调整图像尺寸以适配终端
