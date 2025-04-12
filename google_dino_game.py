@@ -2,22 +2,18 @@ import pygame
 import random
 import sys
 
-# 初始化Pygame
 pygame.init()
 
-# 游戏常量
 WIDTH = 800
 HEIGHT = 400
-FPS = 60
+FPS = 120
 GRAVITY = 0.8
 JUMP_FORCE = -16
 OBSTACLE_SPEED = 8
 
-# 颜色定义
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
-# 初始化游戏窗口
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Chrome Dino Game")
 
@@ -41,7 +37,6 @@ class Dino:
         self.vel_y += GRAVITY
         self.y += self.vel_y
 
-        # 地面碰撞检测
         if self.y >= HEIGHT - 100 - self.height:
             self.y = HEIGHT - 100 - self.height
             self.is_jumping = False
@@ -53,9 +48,9 @@ class Dino:
 class Obstacle:
     def __init__(self):
         self.width = 30
-        self.height = 50
+        self.height = random.randint(20, 60)  # 随机高度
         self.x = WIDTH
-        self.y = HEIGHT - 100 - self.height
+        self.y = HEIGHT - 100 - self.height  # 贴地生成
         self.speed = OBSTACLE_SPEED
 
     def update(self):
@@ -78,15 +73,16 @@ def main():
     dino = Dino()
     obstacles = []
     spawn_timer = 0
+    next_spawn_interval = random.randint(40, 100)  # 初始随机间隔
     score = 0
+    if score >= 2:
+        FPS + 10
 
     running = True
     game_active = True
 
     while running:
         screen.fill(WHITE)
-
-        # 绘制地面
         pygame.draw.rect(screen, BLACK, (0, HEIGHT-100, WIDTH, 100))
 
         for event in pygame.event.get():
@@ -98,40 +94,36 @@ def main():
                 if event.key == pygame.K_SPACE and game_active:
                     dino.jump()
                 if event.key == pygame.K_r and not game_active:
-                    main()  # 重新开始游戏
+                    main()
 
         if game_active:
-            # 生成障碍物
+            # 动态障碍物生成逻辑
             spawn_timer += 1
-            if spawn_timer > random.randint(40, 80):
+            if spawn_timer >= next_spawn_interval:
                 obstacles.append(Obstacle())
                 spawn_timer = 0
+                next_spawn_interval = random.randint(40, 100)  # 生成新的随机间隔
 
-            # 更新游戏元素
             dino.update()
             for obstacle in obstacles:
                 obstacle.update()
-                # 碰撞检测
+                # 精确碰撞检测
                 if (dino.x < obstacle.x + obstacle.width and
                     dino.x + dino.width > obstacle.x and
                     dino.y < obstacle.y + obstacle.height and
                     dino.y + dino.height > obstacle.y):
                     game_active = False
 
-            # 移除屏幕外的障碍物
             obstacles = [obstacle for obstacle in obstacles if not obstacle.off_screen()]
-
-            # 更新分数
             score += 1
 
-        # 绘制元素
         dino.draw()
         for obstacle in obstacles:
             obstacle.draw()
 
-        # 显示分数
+        # 显示分数和间隔提示
         font = pygame.font.Font(None, 36)
-        text = font.render(f'Score: {score//10}', True, BLACK)
+        text = font.render(f'Score: {score//10}  Next: {next_spawn_interval} frames', True, BLACK)
         screen.blit(text, (10, 10))
 
         if not game_active:
