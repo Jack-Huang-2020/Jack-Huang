@@ -2,7 +2,7 @@
 
 ## shuffle_png.py 使用方法：
 
-```python
+```bash
 python shuffle_png.py "<目录路径>"
 ```
 
