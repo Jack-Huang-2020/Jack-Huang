@@ -1,5 +1,11 @@
 # It's Empty
 
+## shuffle_png.py 使用方法：
+
+```python
+python shuffle_png.py "<目录路径>"
+```
+
 # 使用虚拟环境（推荐）
 
 ## 创建虚拟环境
@@ -61,4 +67,5 @@ deactivate
 ```
 
 ## 其他文档
+
 - [项目概述](OVERVIEW.md)
