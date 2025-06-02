@@ -1,9 +1,9 @@
 def __in_repeat__():
-    print("a")
+    print("Debug")
 
-def repeat(input):
+def repeat(def_input):
     times = 0
-    while times < input:
+    while times < def_input:
         times = times + 1
         print("time(s) = " + str(times))
         __in_repeat__()
@@ -13,7 +13,8 @@ def __main__():
     if user_input.isdigit():
         repeat(int(user_input))
     else:
-        print("非法输入！")
+        print("Illegal entry!")
         __main__()
 
-__main__()
+if __name__ == __main__():
+    __main__()
