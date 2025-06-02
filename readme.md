@@ -1,6 +1,4 @@
-# It's Empty
-
-## shuffle_png.py 使用方法：
+# shuffle_png.py 使用方法：
 
 ```bash
 python shuffle_png.py "<目录路径>"
@@ -45,6 +43,8 @@ python your_script.py
 ```
 deactivate
 ```
+
+# Draft
 
 ```
 
