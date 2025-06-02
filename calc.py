@@ -68,7 +68,7 @@ def calculate(expression):
     return evaluate_postfix(postfix)
 
 def main():
-    print("简易计算器（输入'exit'退出）")
+    print("简易计算器（输入 exit 退出）")
     while True:
         try:
             expr = input("请输入表达式: ").strip()
