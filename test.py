@@ -7,7 +7,6 @@ def illegal_entry():
     print("==================== Restart ====================")
     print("")
 
-
 def repeat(def_input):
     times = 0
     debug_mode = input("Open Debug Mode?(Y/N):")

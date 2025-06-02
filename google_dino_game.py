@@ -15,7 +15,7 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Chrome Dino Game")
+pygame.display.set_caption("Google Dino Game")
 
 clock = pygame.time.Clock()
 
