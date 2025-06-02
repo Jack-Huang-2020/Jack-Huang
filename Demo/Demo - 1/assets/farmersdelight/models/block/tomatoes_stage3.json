@@ -1,0 +1,106 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "farmersdelight:block/tomatoes_stage0",
+		"cross": "farmersdelight:block/tomatoes_stage0",
+		"tomatoes": "farmersdelight:block/tomatoes_model"
+	},
+	"elements": [
+		{
+			"from": [0.8, -1, 8],
+			"to": [15.2, 15, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, -1, 0.8],
+			"to": [8, 15, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"name": "stems_upper",
+			"from": [8, 9, 3],
+			"to": [8, 15, 13],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 10, 6], "texture": "#tomatoes"},
+				"west": {"uv": [10, 0, 0, 6], "texture": "#tomatoes"}
+			}
+		},
+		{
+			"name": "stems_lower",
+			"from": [3, 3, 8],
+			"to": [13, 9, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 10, 6], "texture": "#tomatoes"},
+				"south": {"uv": [10, 0, 0, 6], "texture": "#tomatoes"}
+			}
+		},
+		{
+			"name": "tomato_north",
+			"from": [7, 7, 2],
+			"to": [10, 9, 5],
+			"faces": {
+				"north": {"uv": [7, 14, 10, 16], "texture": "#tomatoes"},
+				"east": {"uv": [4, 14, 7, 16], "texture": "#tomatoes"},
+				"south": {"uv": [13, 14, 16, 16], "texture": "#tomatoes"},
+				"west": {"uv": [10, 14, 13, 16], "texture": "#tomatoes"},
+				"up": {"uv": [10, 11, 13, 14], "texture": "#tomatoes"},
+				"down": {"uv": [13, 11, 16, 14], "texture": "#tomatoes"}
+			}
+		},
+		{
+			"name": "tomato_east",
+			"from": [11, 4, 7],
+			"to": [14, 6, 10],
+			"faces": {
+				"north": {"uv": [7, 14, 10, 16], "texture": "#tomatoes"},
+				"east": {"uv": [4, 14, 7, 16], "texture": "#tomatoes"},
+				"south": {"uv": [13, 14, 16, 16], "texture": "#tomatoes"},
+				"west": {"uv": [10, 14, 13, 16], "texture": "#tomatoes"},
+				"up": {"uv": [10, 11, 13, 14], "texture": "#tomatoes"},
+				"down": {"uv": [13, 11, 16, 14], "texture": "#tomatoes"}
+			}
+		},
+		{
+			"name": "tomato_south",
+			"from": [6, 10, 11],
+			"to": [9, 12, 14],
+			"faces": {
+				"north": {"uv": [7, 14, 10, 16], "texture": "#tomatoes"},
+				"east": {"uv": [4, 14, 7, 16], "texture": "#tomatoes"},
+				"south": {"uv": [13, 14, 16, 16], "texture": "#tomatoes"},
+				"west": {"uv": [10, 14, 13, 16], "texture": "#tomatoes"},
+				"up": {"uv": [10, 11, 13, 14], "texture": "#tomatoes"},
+				"down": {"uv": [13, 11, 16, 14], "texture": "#tomatoes"}
+			}
+		},
+		{
+			"name": "tomato_west",
+			"from": [2, 1, 6],
+			"to": [5, 3, 9],
+			"faces": {
+				"north": {"uv": [7, 14, 10, 16], "texture": "#tomatoes"},
+				"east": {"uv": [4, 14, 7, 16], "texture": "#tomatoes"},
+				"south": {"uv": [13, 14, 16, 16], "texture": "#tomatoes"},
+				"west": {"uv": [10, 14, 13, 16], "texture": "#tomatoes"},
+				"up": {"uv": [10, 11, 13, 14], "texture": "#tomatoes"},
+				"down": {"uv": [13, 11, 16, 14], "texture": "#tomatoes"}
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/dirt"},
+            { "model": "block/dirt_alt_1", "weight": 2 },
+            { "model": "block/dirt_alt_2", "weight": 3 },
+            { "model": "block/dirt_alt_3", "weight": 3 }
+        ]
+    }
+}

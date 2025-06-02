@@ -1,0 +1,96 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/rails",
+		"particle": "block/rail_normal_particle"
+	},
+	"elements": [
+		{
+			"name": "Outer Curve South",
+			"from": [2.5, 1, 7.5],
+			"to": [4.5, 2, 16],
+			"faces": {
+				"east": {"uv": [5, 12, 6, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 11, 8, 12], "texture": "#0"},
+				"west": {"uv": [5, 12, 6, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [4, 7.5, 6, 16], "texture": "#0"},
+				"down": {"uv": [4, 16, 6, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Outer Curve East",
+			"from": [7.5, 1, 2.5],
+			"to": [16, 2, 4.5],
+			"faces": {
+				"north": {"uv": [5, 12, 6, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [8, 11, 6, 12], "texture": "#0"},
+				"south": {"uv": [5, 12, 6, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [4, 0, 6, 8.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 8.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Inner Curve South",
+			"from": [11.5, 1, 14],
+			"to": [13.5, 2, 16],
+			"faces": {
+				"east": {"uv": [5, 14, 6, 16], "texture": "#0"},
+				"south": {"uv": [8, 11, 6, 12], "texture": "#0"},
+				"west": {"uv": [5, 14, 6, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [6, 14, 4, 16], "texture": "#0"},
+				"down": {"uv": [6, 16, 4, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Inner Curve East",
+			"from": [14, 1, 11.5],
+			"to": [16, 2, 13.5],
+			"faces": {
+				"north": {"uv": [5, 14, 6, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [6, 11, 8, 12], "texture": "#0"},
+				"south": {"uv": [5, 14, 6, 16], "texture": "#0"},
+				"up": {"uv": [6, 0, 4, 2], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4, 0, 6, 2], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Sleeper",
+			"from": [0, 0, 13],
+			"to": [15, 1, 16],
+			"rotation": {"angle": -45, "axis": "y", "origin": [14.5, 0, 14.5]},
+			"faces": {
+				"north": {"uv": [3, 0, 4, 15], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [3, 15, 0, 16], "texture": "#0"},
+				"south": {"uv": [3, 0, 4, 15], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 15, 3, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 15], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3, 15, 0, 0], "rotation": 90, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Inner Curve",
+			"from": [14, 1.01, 11.5],
+			"to": [16, 1.99, 15.036],
+			"rotation": {"angle": -45, "axis": "y", "origin": [14, 0, 11.5]},
+			"faces": {
+				"east": {"uv": [5, 12, 6, 16], "texture": "#0"},
+				"west": {"uv": [5, 12, 6, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.5, 12, 4.09, 15], "texture": "#0"},
+				"down": {"uv": [5.5, 13, 4.09, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Outer Curve",
+			"from": [7.5, 0.99, 2.5],
+			"to": [9.5, 2.01, 9.571],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.5, 0, 2.5]},
+			"faces": {
+				"east": {"uv": [5, 12, 6, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [5, 12, 6, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [4, 4, 5.41, 12], "texture": "#0"},
+				"down": {"uv": [4, 4, 5.41, 12], "texture": "#0"}
+			}
+		}
+	]
+}

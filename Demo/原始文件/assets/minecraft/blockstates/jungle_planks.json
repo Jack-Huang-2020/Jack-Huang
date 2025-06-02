@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      { "model": "minecraft:block/jungle_planks", "weight": 2 },
+      { "model": "minecraft:block/jungle_planks_alt_1" },
+      { "model": "minecraft:block/jungle_planks_alt_2" }
+    ]
+  }
+}

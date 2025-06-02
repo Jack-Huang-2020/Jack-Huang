@@ -1,0 +1,9 @@
+{
+  "variants": {
+      "": [
+          { "model": "minecraft:block/packed_ice"},
+          { "model": "minecraft:block/packed_ice_alt_1" },
+          { "model": "minecraft:block/packed_ice_alt_2" }
+      ]
+  }
+}

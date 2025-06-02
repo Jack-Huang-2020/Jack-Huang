@@ -1,0 +1,20 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"dripstone": "block/pointed_dripstone_model_tip",
+		"particle": "block/dripstone_block"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 16], "texture": "#dripstone"},
+				"east": {"uv": [12, 0, 16, 16], "texture": "#dripstone"},
+				"south": {"uv": [12, 0, 16, 16], "texture": "#dripstone"},
+				"west": {"uv": [12, 0, 16, 16], "texture": "#dripstone"}
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_wall_side_custom_top",
+  "textures": {
+    "wall": "minecraft:block/red_nether_bricks",
+    "wall_top": "minecraft:block/red_nether_brick_wall_top"
+  }
+}

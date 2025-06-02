@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_custom",
+  "textures": {
+    "bottom": "minecraft:block/warped_door_bottom",
+    "bottom_right": "minecraft:block/warped_door_bottom_right"
+  }
+}

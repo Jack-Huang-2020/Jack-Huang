@@ -1,0 +1,132 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/brewing_stand",
+		"brewing_stand": "block/brewing_stand"
+	},
+	"elements": [
+		{
+			"name": "liquid",
+			"from": [10.5, 2.5, 6.5],
+			"to": [13.5, 5.5, 9.5],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [6, 3, 3, 6], "texture": "#brewing_stand"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#brewing_stand"},
+				"south": {"uv": [3, 3, 6, 6], "texture": "#brewing_stand"},
+				"west": {"uv": [0, 6, 3, 9], "texture": "#brewing_stand"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#brewing_stand"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "bottle_n",
+			"from": [10, 2, 2],
+			"to": [14, 6, 6],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -4]},
+			"faces": {
+				"south": {"uv": [10, 0, 6, 4], "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "bottle_s",
+			"from": [10, 2, 10],
+			"to": [14, 6, 14],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 4]},
+			"faces": {
+				"north": {"uv": [10, 0, 6, 4], "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "bottle_w",
+			"from": [6, 2, 6],
+			"to": [10, 6, 10],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4, 0, 0]},
+			"faces": {
+				"east": {"uv": [6, 0, 10, 4], "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "bottle_e",
+			"from": [14, 2, 6],
+			"to": [18, 6, 10],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 0]},
+			"faces": {
+				"west": {"uv": [6, 0, 10, 4], "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "bottle_up",
+			"from": [10, 6, 6],
+			"to": [14, 10, 10],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 4, 0]},
+			"faces": {
+				"down": {"uv": [9, 0, 10, 1], "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "bottle_down",
+			"from": [10, -1.998, 6],
+			"to": [14, 2.002, 10],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -4, 0]},
+			"faces": {
+				"up": {"uv": [7, 3, 6, 4], "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "bottleneck_top",
+			"from": [11, 9, 7],
+			"to": [13, 10, 9],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [4, 6, 6, 7], "texture": "#brewing_stand"},
+				"east": {"uv": [6, 6, 4, 7], "texture": "#brewing_stand"},
+				"south": {"uv": [4, 6, 6, 7], "texture": "#brewing_stand"},
+				"west": {"uv": [6, 6, 4, 7], "texture": "#brewing_stand"},
+				"up": {"uv": [10, 0, 12, 2], "texture": "#brewing_stand"},
+				"down": {"uv": [12, 0, 14, 2], "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "bottleneck",
+			"from": [11.5, 6, 7.5],
+			"to": [12.5, 9, 8.5],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [5, 0, 6, 3], "texture": "#brewing_stand"},
+				"east": {"uv": [5, 0, 6, 3], "texture": "#brewing_stand"},
+				"south": {"uv": [5, 0, 6, 3], "texture": "#brewing_stand"},
+				"west": {"uv": [5, 0, 6, 3], "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "pipe_top",
+			"from": [9, 11, 7.5],
+			"to": [12.5, 12, 8.5],
+			"faces": {
+				"north": {"uv": [5, 7, 6, 10.5], "rotation": 90, "texture": "#brewing_stand"},
+				"east": {"uv": [15, 1, 16, 2], "texture": "#brewing_stand"},
+				"south": {"uv": [5, 7, 6, 10.5], "rotation": 270, "texture": "#brewing_stand"},
+				"up": {"uv": [5, 7, 6, 10.5], "rotation": 270, "texture": "#brewing_stand"},
+				"down": {"uv": [5, 7, 6, 10.5], "rotation": 270, "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "pipe_bottom",
+			"from": [11.5, 10, 7.5],
+			"to": [12.5, 11, 8.5],
+			"faces": {
+				"north": {"uv": [15, 1, 16, 2], "texture": "#brewing_stand"},
+				"east": {"uv": [15, 1, 16, 2], "texture": "#brewing_stand"},
+				"south": {"uv": [15, 1, 16, 2], "texture": "#brewing_stand"},
+				"west": {"uv": [15, 1, 16, 2], "texture": "#brewing_stand"}
+			}
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"elements": [
+		{
+			"name": "block",
+			"from": [0.8889, 0.8889, 0.8889],
+			"to": [15.1111, 15.1111, 15.1111],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#block"}
+			}
+		},
+		{
+			"name": "outline_n",
+			"from": [0, 0, -16],
+			"to": [16, 16, 0],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#outline"}
+			}
+		},
+		{
+			"name": "outline_e",
+			"from": [16, 0, 0],
+			"to": [32, 16, 16],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"west": {"uv": [0, 0, 16, 16], "texture": "#outline"}
+			}
+		},
+		{
+			"name": "outline_s",
+			"from": [0, 0, 16],
+			"to": [16, 16, 32],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#outline"}
+			}
+		},
+		{
+			"name": "outline_w",
+			"from": [-16, 0, 0],
+			"to": [0, 16, 16],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#outline"}
+			}
+		},
+		{
+			"name": "outline_up",
+			"from": [0, 16, 0],
+			"to": [16, 32, 16],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"down": {"uv": [0, 0, 16, 16], "texture": "#outline"}
+			}
+		},
+		{
+			"name": "outline_down",
+			"from": [0, -16, 0],
+			"to": [16, 0, 16],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#outline"}
+			}
+		}
+	]
+}

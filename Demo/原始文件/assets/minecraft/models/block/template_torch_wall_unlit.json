@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"holder": "block/torch_holder",
+		"particle": "#torch"
+	},
+	"elements": [
+		{
+			"from": [0, 3, 7],
+			"to": [2, 13, 9],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [0, 3, 8]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"east": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"south": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"west": {"uv": [7, 6, 9, 16], "texture": "#torch"},
+				"up": {"uv": [7, 6, 8, 7], "texture": "#torch"},
+				"down": {"uv": [7, 14, 9, 16], "texture": "#torch"}
+			}
+		},
+		{
+			"name": "holder",
+			"from": [0, 4, 6],
+			"to": [4, 6, 10],
+			"faces": {
+				"north": {"uv": [4, 5, 8, 7], "texture": "#holder"},
+				"east": {"uv": [0, 5, 4, 7], "texture": "#holder"},
+				"south": {"uv": [12, 5, 16, 7], "texture": "#holder"},
+				"west": {"uv": [8, 5, 12, 7], "texture": "#holder", "cullface": "west"},
+				"up": {"uv": [4, 1, 8, 5], "texture": "#holder"},
+				"down": {"uv": [8, 1, 12, 5], "texture": "#holder"}
+			}
+		}
+	]
+}

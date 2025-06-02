@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "minecraft:block/mangrove_roots" },
+      { "model": "minecraft:block/mangrove_roots", "y": 90 },
+      { "model": "minecraft:block/mangrove_roots_alt_1" },
+      { "model": "minecraft:block/mangrove_roots_alt_1", "y": 90 }
+    ] 
+  }
+}

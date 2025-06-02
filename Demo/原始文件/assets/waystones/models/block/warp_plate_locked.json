@@ -1,0 +1,9 @@
+{
+	"parent": "waystones:block/warp_plate",
+	"textures": {
+		"particle": "waystones:block/warp_plate",
+		"texture": "waystones:block/warp_plate",
+		"inner": "waystones:block/warp_plate_lock",
+		"base": "waystones:block/warp_plate_base"
+	}
+}

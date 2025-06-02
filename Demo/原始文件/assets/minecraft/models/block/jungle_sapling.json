@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/jungle_sapling",
+		"sapling": "block/jungle_sapling"
+	},
+	"elements": [
+		{
+			"name": "Leaves",
+			"from": [4, 7, 4],
+			"to": [12, 12, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 5], "texture": "#sapling"},
+				"east": {"uv": [0, 0, 8, 5], "texture": "#sapling"},
+				"south": {"uv": [0, 0, 8, 5], "texture": "#sapling"},
+				"west": {"uv": [0, 0, 8, 5], "texture": "#sapling"},
+				"up": {"uv": [8, 8, 16, 16], "texture": "#sapling"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "Wood",
+			"from": [7, 0, 7],
+			"to": [9, 8, 9],
+			"faces": {
+				"north": {"uv": [12, 0, 14, 8], "texture": "#sapling"},
+				"east": {"uv": [14, 0, 16, 8], "texture": "#sapling"},
+				"south": {"uv": [12, 0, 14, 8], "texture": "#sapling"},
+				"west": {"uv": [14, 0, 16, 8], "texture": "#sapling"},
+				"up": {"uv": [12, 6, 14, 8], "texture": "#sapling"},
+				"down": {"uv": [14, 6, 16, 8], "texture": "#sapling", "cullface": "down"}
+			}
+		},
+		{
+			"name": "CrossLeavesWE",
+			"from": [8, 5, 3],
+			"to": [8, 13, 13],
+			"faces": {
+				"east": {"uv": [0, 6, 8, 16], "rotation": 270, "texture": "#sapling"},
+				"west": {"uv": [0, 6, 8, 16], "rotation": 270, "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "CrossLeavesNS",
+			"from": [3, 5, 8],
+			"to": [13, 13, 8],
+			"faces": {
+				"north": {"uv": [0, 6, 8, 16], "rotation": 270, "texture": "#sapling"},
+				"south": {"uv": [0, 6, 8, 16], "rotation": 270, "texture": "#sapling"}
+			}
+		}
+	]
+}

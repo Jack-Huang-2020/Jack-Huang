@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"elements": [
+		{
+			"name": "stem",
+			"from": [5, -1, 8],
+			"to": [10, 5, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"north": {"uv": [4, 6.5, 1.5, 9.5], "texture": "#stem"},
+				"south": {"uv": [1.5, 6.5, 4, 9.5], "texture": "#stem"}
+			}
+		},
+		{
+			"name": "stem_cross",
+			"from": [8, -1, 6],
+			"to": [8, 2, 9],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.5, 8]},
+			"faces": {
+				"east": {"uv": [1.5, 8.5, 0, 10], "texture": "#stem"},
+				"west": {"uv": [0, 8.5, 1.5, 10], "texture": "#stem"}
+			}
+		},
+		{
+			"name": "leaf_bottom",
+			"from": [8, 1, 8],
+			"to": [10, 1, 10],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 1, 9]},
+			"faces": {
+				"up": {"uv": [0.5, 6.5, 1.5, 5.5], "texture": "#stem"},
+				"down": {"uv": [0.5, 5.5, 1.5, 6.5], "texture": "#stem"}
+			}
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/red_mushroom_block",
+		"mushroom": "block/red_mushroom"
+	},
+	"elements": [
+		{
+			"name": "Hat",
+			"from": [7, 3, 5],
+			"to": [11, 6, 9],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 3], "texture": "#mushroom"},
+				"east": {"uv": [8, 0, 12, 3], "texture": "#mushroom"},
+				"south": {"uv": [4, 0, 8, 3], "texture": "#mushroom"},
+				"west": {"uv": [0, 0, 4, 3], "texture": "#mushroom"},
+				"up": {"uv": [12, 3, 16, 7], "texture": "#mushroom"},
+				"down": {"uv": [12, 7, 16, 11], "texture": "#mushroom"}
+			}
+		},
+		{
+			"name": "Stem",
+			"from": [8, 0, 6],
+			"to": [10, 3, 8],
+			"faces": {
+				"north": {"uv": [14, 12, 16, 15], "texture": "#mushroom"},
+				"east": {"uv": [12, 12, 14, 15], "texture": "#mushroom"},
+				"south": {"uv": [14, 12, 16, 15], "texture": "#mushroom"},
+				"west": {"uv": [12, 12, 14, 15], "texture": "#mushroom"},
+				"down": {"uv": [2, 12, 4, 14], "texture": "#mushroom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Stem2",
+			"from": [6, 0, 9],
+			"to": [7, 2, 10],
+			"faces": {
+				"north": {"uv": [13, 12, 14, 14], "texture": "#mushroom"},
+				"east": {"uv": [13, 12, 14, 14], "texture": "#mushroom"},
+				"south": {"uv": [13, 12, 14, 14], "texture": "#mushroom"},
+				"west": {"uv": [13, 12, 14, 14], "texture": "#mushroom"},
+				"down": {"uv": [2, 12, 3, 13], "texture": "#mushroom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Hat2",
+			"from": [5, 2, 8],
+			"to": [8, 3, 11],
+			"faces": {
+				"north": {"uv": [8, 0, 11, 1], "texture": "#mushroom"},
+				"east": {"uv": [3, 2, 0, 3], "texture": "#mushroom"},
+				"south": {"uv": [13, 0, 16, 1], "texture": "#mushroom"},
+				"west": {"uv": [2, 0, 5, 1], "texture": "#mushroom"},
+				"up": {"uv": [13, 4, 16, 7], "texture": "#mushroom"},
+				"down": {"uv": [0, 2, 3, 5], "rotation": 270, "texture": "#mushroom"}
+			}
+		}
+	]
+}

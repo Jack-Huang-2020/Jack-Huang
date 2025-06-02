@@ -1,0 +1,13 @@
+{
+  "variants":
+  {
+    "":
+    [
+      { "model": "minecraft:block/bookshelf", "weight": 3 },
+      { "model": "minecraft:block/bookshelf_alt_1", "weight": 3 },
+      { "model": "minecraft:block/bookshelf_alt_2", "weight": 3 },
+      { "model": "minecraft:block/bookshelf_alt_3" },
+      { "model": "minecraft:block/bookshelf_alt_4" }
+    ]
+  }
+}

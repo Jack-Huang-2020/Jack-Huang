@@ -1,0 +1,23 @@
+{
+  "variants":
+  {
+    "type=bottom":
+    [
+      { "model": "block/crimson_slab", "weight": 2 },
+      { "model": "block/crimson_slab_alt_1" },
+      { "model": "block/crimson_slab_alt_2" }
+    ],
+    "type=top":
+    [
+      { "model": "block/crimson_slab_top", "weight": 2 },
+      { "model": "block/crimson_slab_top_alt_1" },
+      { "model": "block/crimson_slab_top_alt_2" }
+    ],
+    "type=double":
+    [
+      { "model": "block/crimson_planks", "weight": 2 },
+      { "model": "block/crimson_planks_alt_1" },
+      { "model": "block/crimson_planks_alt_2" }
+    ]
+  }
+}

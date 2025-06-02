@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_chest_boat_held",
+  "textures": {
+    "boat": "minecraft:entity/chest_boat/jungle",
+    "particle": "minecraft:block/jungle_planks"
+  }
+}

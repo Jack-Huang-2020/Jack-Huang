@@ -1,0 +1,80 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/spruce_sapling",
+		"sapling": "block/spruce_sapling"
+	},
+	"elements": [
+		{
+			"name": "Leaves",
+			"from": [5, 3, 5],
+			"to": [11, 5, 11],
+			"faces": {
+				"north": {"uv": [1, 11, 7, 13], "texture": "#sapling"},
+				"east": {"uv": [1, 11, 7, 13], "texture": "#sapling"},
+				"south": {"uv": [1, 11, 7, 13], "texture": "#sapling"},
+				"west": {"uv": [1, 11, 7, 13], "texture": "#sapling"},
+				"up": {"uv": [10, 10, 16, 16], "texture": "#sapling"},
+				"down": {"uv": [10, 10, 16, 16], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "Leaves2",
+			"from": [6, 7, 6],
+			"to": [10, 9, 10],
+			"faces": {
+				"north": {"uv": [2, 7, 6, 9], "texture": "#sapling"},
+				"east": {"uv": [2, 7, 6, 9], "texture": "#sapling"},
+				"south": {"uv": [2, 7, 6, 9], "texture": "#sapling"},
+				"west": {"uv": [2, 7, 6, 9], "texture": "#sapling"},
+				"up": {"uv": [8, 0, 12, 4], "texture": "#sapling"},
+				"down": {"uv": [8, 0, 12, 4], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "Leaves3",
+			"from": [7, 11, 7],
+			"to": [9, 13, 9],
+			"faces": {
+				"north": {"uv": [3, 3, 5, 5], "texture": "#sapling"},
+				"east": {"uv": [3, 3, 5, 5], "texture": "#sapling"},
+				"south": {"uv": [3, 3, 5, 5], "texture": "#sapling"},
+				"west": {"uv": [3, 3, 5, 5], "texture": "#sapling"},
+				"up": {"uv": [3, 3, 5, 5], "texture": "#sapling"},
+				"down": {"uv": [3, 3, 5, 5], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "Wood",
+			"from": [7, 0, 7],
+			"to": [9, 8, 9],
+			"faces": {
+				"north": {"uv": [3, 8, 5, 16], "texture": "#sapling"},
+				"east": {"uv": [3, 8, 5, 16], "texture": "#sapling"},
+				"south": {"uv": [3, 8, 5, 16], "texture": "#sapling"},
+				"west": {"uv": [3, 8, 5, 16], "texture": "#sapling"},
+				"up": {"uv": [12, 8, 14, 10], "texture": "#sapling"},
+				"down": {"uv": [14, 8, 16, 10], "texture": "#sapling", "cullface": "down"}
+			}
+		},
+		{
+			"name": "CrossLeavesWE",
+			"from": [8, 2, 4],
+			"to": [8, 14, 12],
+			"faces": {
+				"east": {"uv": [0, 2, 8, 14], "texture": "#sapling"},
+				"west": {"uv": [0, 2, 8, 14], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "CrossLeavesNS",
+			"from": [4, 2, 8],
+			"to": [12, 14, 8],
+			"faces": {
+				"north": {"uv": [0, 2, 8, 14], "texture": "#sapling"},
+				"south": {"uv": [0, 2, 8, 14], "texture": "#sapling"}
+			}
+		}
+	]
+}

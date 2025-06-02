@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"dripstone_frustum": "block/pointed_dripstone_model_frustum",
+		"dripstone_tip": "block/pointed_dripstone_model_tip",
+        "particle": "block/pointed_dripstone_model_base"
+	},
+	"elements": [
+		{
+			"from": [7, 8, 7],
+			"to": [11, 14, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 3, 0]},
+			"faces": {
+				"north": {"uv": [0, 4, 4, 10], "texture": "#dripstone_tip"},
+				"east": {"uv": [0, 4, 4, 10], "texture": "#dripstone_tip"},
+				"south": {"uv": [0, 4, 4, 10], "texture": "#dripstone_tip"},
+				"west": {"uv": [0, 4, 4, 10], "texture": "#dripstone_tip"},
+				"up": {"uv": [0, 0, 4, 4], "rotation": 270, "texture": "#dripstone_tip"}
+			}
+		},
+		{
+			"from": [7, 14, 7],
+			"to": [9, 19, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 3, 0]},
+			"faces": {
+				"north": {"uv": [6, 11, 8, 16], "texture": "#dripstone_tip"},
+				"east": {"uv": [6, 11, 8, 16], "texture": "#dripstone_tip"},
+				"south": {"uv": [6, 11, 8, 16], "texture": "#dripstone_tip"},
+				"west": {"uv": [6, 11, 8, 16], "texture": "#dripstone_tip"},
+				"up": {"uv": [6, 9, 8, 11], "texture": "#dripstone_tip"}
+			}
+		},
+		{
+			"from": [5, 0, 5],
+			"to": [11, 8, 11],
+			"faces": {
+				"north": {"uv": [0, 8, 6, 16], "texture": "#dripstone_frustum"},
+				"east": {"uv": [0, 8, 6, 16], "texture": "#dripstone_frustum"},
+				"south": {"uv": [0, 8, 6, 16], "texture": "#dripstone_frustum"},
+				"west": {"uv": [0, 8, 6, 16], "texture": "#dripstone_frustum"},
+				"up": {"uv": [9, 9, 15, 15], "texture": "#dripstone_frustum"},
+				"down": {"uv": [9, 1, 15, 7], "texture": "#dripstone_frustum"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 2],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 2.1, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"translation": [0, 2.1, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

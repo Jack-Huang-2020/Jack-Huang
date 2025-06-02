@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "farmersdelight:block/crop_cross",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"cross": "farmersdelight:block/cabbages_stage6",
+		"particle": "farmersdelight:block/cabbages_top",
+		"top": "farmersdelight:block/cabbages_top"
+	},
+	"elements": [
+		{
+			"from": [2, 1, 8],
+			"to": [14, 8, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 7, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [2, 7, 14, 14], "texture": "#cross"},
+				"south": {"uv": [2, 7, 14, 14], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 1, 2],
+			"to": [8, 8, 14],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 7, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [2, 7, 14, 14], "texture": "#cross"},
+				"west": {"uv": [2, 7, 14, 14], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [4, -1, 4],
+			"to": [12, 6, 12],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [4, 9, 12, 16], "texture": "#cross"},
+				"east": {"uv": [4, 9, 12, 16], "texture": "#cross"},
+				"south": {"uv": [4, 9, 12, 16], "texture": "#cross"},
+				"west": {"uv": [4, 9, 12, 16], "texture": "#cross"},
+				"up": {"uv": [8, 16, 0, 8], "texture": "#top"}
+			}
+		}
+	]
+}

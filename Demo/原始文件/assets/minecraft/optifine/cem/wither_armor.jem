@@ -1,0 +1,74 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head1",
+			"id": "head1",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 19, -4, 8, 9, 8], "textureOffset": [32, 30], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "head2",
+			"id": "head2",
+			"invertAxis": "xy",
+			"translate": [-8, -20, 0],
+			"boxes": [
+				{"coordinates": [7, 18.6, -2, 4, 4, 4], "textureOffset": [48, 12], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "head3",
+			"id": "head3",
+			"invertAxis": "xy",
+			"translate": [10, -20, 0],
+			"boxes": [
+				{"coordinates": [-11, 18.6, -2, 4, 4, 4], "textureOffset": [48, 12], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "body1",
+			"id": "body1",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-1, 17.1, -0.5, 2, 3, 3], "textureOffset": [54, 20], "sizeAdd": 0.5},
+				{"coordinates": [6, 17.5, -0.5, 3, 1, 1], "textureOffset": [0, 52], "sizeAdd": 0.5}
+			],
+			"submodels": [
+				{
+					"id": "body1_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-9, 17.5, -0.5, 3, 1, 1], "textureOffset": [0, 52], "sizeAdd": 0.5}
+					]
+				}
+			]
+		},
+		{
+			"part": "body2",
+			"id": "body2",
+			"invertAxis": "xy",
+			"translate": [-2, -17.1, 0.5],
+			"boxes": [
+				{"coordinates": [-1, 7.1, -0.5, 2, 10, 3], "textureOffset": [10, 51], "sizeAdd": 0.52},
+				{"coordinates": [-5, 12.6, -3, 10, 6, 5], "textureOffset": [34, 46], "sizeAdd": 0.5},
+				{"coordinates": [-4, 8.6, -2.5, 8, 3, 4], "textureOffset": [40, 57], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "body3",
+			"id": "body3",
+			"invertAxis": "xy",
+			"translate": [-2, -7.1, 0.5],
+			"boxes": [
+				{"coordinates": [-1, 1.1, -0.5, 2, 6, 3], "textureOffset": [0, 55], "sizeAdd": 0.5}
+			]
+		}
+	]
+}

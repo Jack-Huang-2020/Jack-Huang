@@ -1,0 +1,119 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 64],
+	"textures": {
+		"boat": "entity/boat/bamboo",
+        "particle": "block/bamboo_planks"
+	},
+	"elements": [
+		{
+			"name": "bottom",
+			"from": [0, 0, -6],
+			"to": [16, 4, 22],
+			"faces": {
+				"north": {"uv": [0.5, 1, 0, 5], "rotation": 270, "texture": "#boat"},
+				"east": {"uv": [4, 1, 0.5, 0], "rotation": 180, "texture": "#boat"},
+				"south": {"uv": [4.5, 1, 4, 5], "rotation": 90, "texture": "#boat"},
+				"west": {"uv": [7.5, 0, 4, 1], "texture": "#boat"},
+				"up": {"uv": [4.5, 1, 8, 5], "rotation": 90, "texture": "#boat"},
+				"down": {"uv": [0.5, 1, 4, 5], "rotation": 90, "texture": "#boat"}
+			}
+		},
+		{
+			"name": "top",
+			"from": [-2, 4, -6],
+			"to": [18, 8, 22],
+			"faces": {
+				"north": {"uv": [0.5, 1, 0, 6], "rotation": 270, "texture": "#boat"},
+				"east": {"uv": [4, 1, 0.5, 0], "rotation": 180, "texture": "#boat"},
+				"south": {"uv": [4.5, 1, 4, 6], "rotation": 90, "texture": "#boat"},
+				"west": {"uv": [7.5, 0, 4, 1], "texture": "#boat"},
+				"up": {"uv": [4.5, 1, 8, 6], "rotation": 90, "texture": "#boat"},
+				"down": {"uv": [0.5, 1, 4, 6], "rotation": 90, "texture": "#boat"}
+			}
+		},
+		{
+			"name": "right_oar_shaft",
+			"from": [10, 9, 5],
+			"to": [28, 11, 7],
+			"rotation": {"angle": -45, "axis": "z", "origin": [18, 9, 6]},
+			"faces": {
+				"north": {"uv": [5, 10.5, 7.25, 11], "texture": "#boat"},
+				"east": {"uv": [9.75, 10.5, 10, 11], "texture": "#boat"},
+				"south": {"uv": [7.5, 10.5, 9.75, 11], "texture": "#boat"},
+				"west": {"uv": [7.25, 10.5, 7.5, 11], "texture": "#boat"},
+				"up": {"uv": [7.25, 6, 7.5, 10.5], "rotation": 90, "texture": "#boat"},
+				"down": {"uv": [7.5, 6, 7.75, 10.5], "rotation": 90, "texture": "#boat"}
+			}
+		},
+		{
+			"name": "right_oar_blade",
+			"from": [23, 8, 6],
+			"to": [30, 14, 7],
+			"rotation": {"angle": -45, "axis": "z", "origin": [18, 9, 6]},
+			"faces": {
+				"north": {"uv": [5, 7.75, 5.875, 9.25], "texture": "#boat"},
+				"east": {"uv": [6.875, 7.75, 7, 9.25], "texture": "#boat"},
+				"south": {"uv": [6, 7.75, 6.875, 9.25], "texture": "#boat"},
+				"west": {"uv": [5.875, 7.75, 6, 9.25], "texture": "#boat"},
+				"up": {"uv": [5.875, 6, 6, 7.75], "rotation": 90, "texture": "#boat"},
+				"down": {"uv": [6, 6, 6.125, 7.75], "rotation": 90, "texture": "#boat"}
+			}
+		},
+		{
+			"name": "left_oar_shaft",
+			"from": [-4, -1, 5],
+			"to": [-2, 17, 7],
+			"rotation": {"angle": -45, "axis": "z", "origin": [-2, 9, 6]},
+			"faces": {
+				"north": {"uv": [2.5, 10.5, 4.75, 11], "rotation": 90, "texture": "#boat"},
+				"east": {"uv": [2.5, 6, 2.75, 10.5], "rotation": 180, "texture": "#boat"},
+				"south": {"uv": [0, 10.5, 2.25, 11], "rotation": 270, "texture": "#boat"},
+				"west": {"uv": [2.25, 6, 2.5, 10.5], "rotation": 180, "texture": "#boat"},
+				"up": {"uv": [2.25, 10.5, 2.5, 11], "rotation": 270, "texture": "#boat"},
+				"down": {"uv": [4.75, 10.5, 5, 11], "rotation": 270, "texture": "#boat"}
+			}
+		},
+		{
+			"name": "left_oar_blade",
+			"from": [-7, -3, 6],
+			"to": [-1, 4, 7],
+			"rotation": {"angle": -45, "axis": "z", "origin": [-2, 9, 7]},
+			"faces": {
+				"north": {"uv": [1, 7.75, 1.875, 9.25], "rotation": 90, "texture": "#boat"},
+				"east": {"uv": [1, 6, 1.125, 7.75], "rotation": 180, "texture": "#boat"},
+				"south": {"uv": [0, 7.75, 0.875, 9.25], "rotation": 270, "texture": "#boat"},
+				"west": {"uv": [0.875, 6, 1, 7.75], "rotation": 180, "texture": "#boat"},
+				"up": {"uv": [0.875, 7.75, 1, 9.25], "rotation": 270, "texture": "#boat"},
+				"down": {"uv": [1.875, 7.75, 2, 9.25], "rotation": 270, "texture": "#boat"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 135, 0],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"head": {
+			"translation": [0, 13, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

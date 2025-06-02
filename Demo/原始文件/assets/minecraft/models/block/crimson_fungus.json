@@ -1,0 +1,64 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"emissive": "block/crimson_fungus_emissive",
+		"particle": "block/crimson_fungus",
+		"fungus": "block/crimson_fungus"
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [7, 0, 7],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [12, 2, 14, 6], "texture": "#fungus"},
+				"east": {"uv": [10, 2, 12, 6], "texture": "#fungus"},
+				"south": {"uv": [12, 2, 14, 6], "texture": "#fungus"},
+				"west": {"uv": [10, 2, 12, 6], "texture": "#fungus"},
+				"down": {"uv": [11, 11, 13, 13], "texture": "#fungus", "cullface": "down"}
+			}
+		},
+		{
+			"name": "cap_rim",
+			"from": [4, 4, 4],
+			"to": [12, 6, 12],
+			"faces": {
+				"north": {"uv": [0, 6, 8, 8], "texture": "#fungus"},
+				"east": {"uv": [0, 6, 8, 8], "texture": "#fungus"},
+				"south": {"uv": [0, 6, 8, 8], "texture": "#fungus"},
+				"west": {"uv": [0, 6, 8, 8], "texture": "#fungus"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#fungus"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#fungus"}
+			}
+		},
+		{
+			"name": "cap_top",
+			"from": [5, 6, 5],
+			"to": [11, 10, 11],
+			"faces": {
+				"north": {"uv": [0, 8, 6, 12], "texture": "#fungus"},
+				"east": {"uv": [0, 12, 6, 16], "texture": "#fungus"},
+				"south": {"uv": [0, 8, 6, 12], "texture": "#fungus"},
+				"west": {"uv": [0, 12, 6, 16], "texture": "#fungus"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#fungus"}
+			}
+		},
+		{
+			"name": "cap_top_emissive",
+			"from": [5, 6, 5],
+			"to": [11, 10, 11],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 8, 6, 12], "texture": "#emissive"},
+				"east": {"uv": [0, 12, 6, 16], "texture": "#emissive"},
+				"south": {"uv": [0, 8, 6, 12], "texture": "#emissive"},
+				"west": {"uv": [0, 12, 6, 16], "texture": "#emissive"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#emissive"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#emissive"}
+			}
+		}
+	]
+}

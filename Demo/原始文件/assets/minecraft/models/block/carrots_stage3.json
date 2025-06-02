@@ -1,0 +1,98 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/carrots",
+		"carrots": "block/carrots"
+	},
+	"elements": [
+		{
+			"name": "S",
+			"from": [1.05, 0, 12],
+			"to": [14.95, 10, 12],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [14, 0, 0, 10], "texture": "#carrots"},
+				"south": {"uv": [0, 0, 14, 10], "texture": "#carrots"}
+			}
+		},
+		{
+			"name": "W",
+			"from": [4, 0, 1.05],
+			"to": [4, 10, 14.95],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [14, 0, 0, 10], "texture": "#carrots"},
+				"west": {"uv": [0, 0, 14, 10], "texture": "#carrots"}
+			}
+		},
+		{
+			"name": "N",
+			"from": [1.05, 0, 4],
+			"to": [14.95, 10, 4],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 14, 10], "texture": "#carrots"},
+				"south": {"uv": [14, 0, 0, 10], "texture": "#carrots"}
+			}
+		},
+		{
+			"name": "E",
+			"from": [12, 0, 1.05],
+			"to": [12, 10, 14.95],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [0, 0, 14, 10], "texture": "#carrots"},
+				"west": {"uv": [14, 0, 0, 10], "texture": "#carrots"}
+			}
+		},
+		{
+			"name": "NW Cube",
+			"from": [3, -1, 3],
+			"to": [5, 0, 5],
+			"faces": {
+				"north": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"east": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"south": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"west": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#carrots"}
+			}
+		},
+		{
+			"name": "NE Cube",
+			"from": [11, -1, 3],
+			"to": [13, 0, 5],
+			"faces": {
+				"north": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"east": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"south": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"west": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#carrots"}
+			}
+		},
+		{
+			"name": "SE Cube",
+			"from": [11, -1, 11],
+			"to": [13, 0, 13],
+			"faces": {
+				"north": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"east": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"south": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"west": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#carrots"}
+			}
+		},
+		{
+			"name": "SW Cube",
+			"from": [3, -1, 11],
+			"to": [5, 0, 13],
+			"faces": {
+				"north": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"east": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"south": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"west": {"uv": [14, 2, 16, 3], "texture": "#carrots"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#carrots"}
+			}
+		}
+	]
+}

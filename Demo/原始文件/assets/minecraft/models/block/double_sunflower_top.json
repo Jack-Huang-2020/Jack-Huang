@@ -1,0 +1,74 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+
+    "ambientocclusion": false,
+    
+	"textures": {
+        "particle": "block/double_plant_sunflower_front",
+        "0": "block/double_plant_sunflower_front",
+        "1": "block/double_plant_sunflower_back",
+        "2": "block/double_plant_sunflower_bottom"
+    },
+    "elements": [
+        {
+            "name": "Flower",
+            "from": [ 9.0, 2.0, 2.0 ], 
+            "to": [ 9.0, 14.0, 14.0 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Stem Top",
+            "from": [ 7.67, 7.5, 7.505 ], 
+            "to": [ 8.99, 8.5, 8.495 ], 
+            "shade": true,
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 1.0 ] },
+                "south": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 1.0 ] },
+                "up": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 1.0 ] },
+                "down": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "Stem",
+            "from": [ 7.5, 0.0, 7.5 ], 
+            "to": [ 8.5, 8.336, 8.5 ], 
+            "shade": true,
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 8.336 ] },
+                "east": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 8.336 ] },
+                "south": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 8.336 ] },
+                "west": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 8.336 ] }
+            }
+        },
+        {
+            "name": "Leaf Stem",
+            "from": [ 7.75, 0.0, 8.0 ], 
+            "to": [ 8.25, 4.0, 8.5 ], 
+            "shade": true,
+            "rotation": { "origin": [ 8.0, 0.0, 8.5 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 8.0 ] },
+                "east": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 8.0 ] },
+                "south": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 8.0 ] },
+                "west": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 8.0 ] }
+            }
+        },
+        {
+            "name": "Leaf",
+            "from": [ 6.5, 3.89, 9.57 ], 
+            "to": [ 9.5, 3.89, 13.07 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8.0, 3.89, 9.57 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "up": { "texture": "#2", "uv": [ 0.0, 0.0, 8.0, 9.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 9.0, 8.0, 0.0 ] }
+            }
+        }
+    ]
+}

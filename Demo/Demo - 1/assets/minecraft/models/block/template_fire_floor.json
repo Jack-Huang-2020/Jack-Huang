@@ -1,0 +1,32 @@
+{
+    "textures": {
+        "particle": "#fire"
+    },
+    "ambientocclusion": false,
+    "elements": [
+        {   "from": [ 0.2, 0, 12 ],
+            "to": [ 15.8, 20, 12 ],
+            "rotation": { "origin": [ 8, 0, 12 ], "axis": "x", "angle": -22.5, "rescale": true },
+            "shade": false,
+            "faces": { "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#fire" }}
+        },
+        {   "from": [ 0.2, 0, 4 ],
+            "to": [ 15.8, 20, 4 ],
+            "rotation": { "origin": [ 8, 0, 4 ], "axis": "x", "angle": 22.5, "rescale": true },
+            "shade": false,
+            "faces": { "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#fire" }}
+        },
+        {   "from": [ 4, 0, 0.2 ],
+            "to": [ 4, 20, 15.8 ],
+            "rotation": { "origin": [ 4, 0, 8 ], "axis": "z", "angle": -22.5, "rescale": true },
+            "shade": false,
+            "faces": { "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#fire" }}
+        },
+        {   "from": [ 12, 0, 0.2 ],
+            "to": [ 12, 20, 15.8 ],
+            "rotation": { "origin": [ 12, 0, 8 ], "axis": "z", "angle": 22.5, "rescale": true },
+            "shade": false,
+            "faces": { "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#fire" }}
+        }
+    ]
+}

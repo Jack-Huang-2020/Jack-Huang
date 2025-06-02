@@ -1,0 +1,6 @@
+{
+    "parent": "item/diagonal_rod_rotated",
+    "textures": {
+        "layer0": "item/blaze_rod"
+    }
+}

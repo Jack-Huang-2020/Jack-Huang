@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_fence_inventory_custom",
+    "textures": {
+        "texture": "block/birch_fence",
+        "particle": "block/birch_planks"
+    }
+}

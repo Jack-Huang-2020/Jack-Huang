@@ -1,0 +1,86 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"ladder": "block/ladder_model",
+		"particle": "block/ladder"
+	},
+	"elements": [
+		{
+			"name": "Left leg",
+			"from": [12, 0, 14],
+			"to": [14, 16, 16],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 16], "texture": "#ladder"},
+				"east": {"uv": [2, 0, 4, 16], "texture": "#ladder"},
+				"south": {"uv": [0, 0, 2, 16], "texture": "#ladder", "cullface": "south"},
+				"west": {"uv": [4, 0, 2, 16], "texture": "#ladder"},
+				"up": {"uv": [6, 16, 8, 14], "texture": "#ladder", "cullface": "up"},
+				"down": {"uv": [6, 14, 8, 16], "texture": "#ladder", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Right leg",
+			"from": [2, 0, 14],
+			"to": [4, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 0, 6, 16], "texture": "#ladder"},
+				"east": {"uv": [2, 0, 4, 16], "texture": "#ladder"},
+				"south": {"uv": [0, 0, 2, 16], "texture": "#ladder", "cullface": "south"},
+				"west": {"uv": [4, 0, 2, 16], "texture": "#ladder"},
+				"up": {"uv": [6, 16, 8, 14], "texture": "#ladder", "cullface": "up"},
+				"down": {"uv": [6, 14, 8, 16], "texture": "#ladder", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Top rung",
+			"from": [1, 11, 13],
+			"to": [15, 13, 15],
+			"faces": {
+				"north": {"uv": [8, 0, 6, 14], "rotation": 90, "texture": "#ladder"},
+				"east": {"uv": [8, 14, 10, 16], "texture": "#ladder"},
+				"south": {"uv": [10, 0, 12, 14], "rotation": 90, "texture": "#ladder"},
+				"west": {"uv": [10, 14, 8, 16], "texture": "#ladder"},
+				"up": {"uv": [8, 0, 10, 14], "rotation": 90, "texture": "#ladder"},
+				"down": {"uv": [12, 0, 14, 14], "rotation": 90, "texture": "#ladder"}
+			}
+		},
+		{
+			"name": "Bottom rung",
+			"from": [1, 3, 13],
+			"to": [15, 5, 15],
+			"faces": {
+				"north": {"uv": [8, 0, 6, 14], "rotation": 90, "texture": "#ladder"},
+				"east": {"uv": [8, 14, 10, 16], "texture": "#ladder"},
+				"south": {"uv": [10, 0, 12, 14], "rotation": 90, "texture": "#ladder"},
+				"west": {"uv": [10, 14, 8, 16], "texture": "#ladder"},
+				"up": {"uv": [8, 0, 10, 14], "rotation": 90, "texture": "#ladder"},
+				"down": {"uv": [12, 0, 14, 14], "rotation": 90, "texture": "#ladder"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, -1.5],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [3.5, -2, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"translation": [0, 0, -3],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

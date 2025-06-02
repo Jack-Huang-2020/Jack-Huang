@@ -1,0 +1,136 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"render_type": "minecraft:solid",
+	"textures": {
+		"particle": "farmersdelight:block/brown_mushroom_colony_model",
+		"colony": "farmersdelight:block/brown_mushroom_colony_model"
+	},
+	"elements": [
+		{
+			"name": "Stem 1",
+			"from": [9, 0, 5],
+			"to": [11, 11, 7],
+			"faces": {
+				"north": {"uv": [0, 8, 11, 10], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [0, 10, 11, 8], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [0, 8, 11, 10], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [0, 10, 11, 8], "rotation": 90, "texture": "#colony"},
+				"down": {"uv": [2, 12, 4, 14], "texture": "#colony", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Hat 1",
+			"from": [6, 11, 2],
+			"to": [14, 14, 10],
+			"faces": {
+				"north": {"uv": [13, 8, 16, 16], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [13, 8, 16, 16], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [13, 8, 16, 16], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [13, 8, 16, 16], "rotation": 90, "texture": "#colony"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#colony"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#colony"}
+			}
+		},
+		{
+			"name": "Stem 2",
+			"from": [3, 0, 9],
+			"to": [5, 7, 11],
+			"faces": {
+				"north": {"uv": [0, 8, 7, 10], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [0, 10, 7, 8], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [0, 8, 7, 10], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [0, 10, 7, 8], "rotation": 90, "texture": "#colony"},
+				"down": {"uv": [2, 12, 4, 14], "texture": "#colony", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Hat 2",
+			"from": [1, 7, 7],
+			"to": [7, 10, 13],
+			"faces": {
+				"north": {"uv": [13, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [13, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [13, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [13, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"up": {"uv": [6, 10, 12, 16], "rotation": 270, "texture": "#colony"},
+				"down": {"uv": [0, 10, 6, 16], "texture": "#colony"}
+			}
+		},
+		{
+			"name": "Stem 3",
+			"from": [11, 0, 11],
+			"to": [13, 5, 13],
+			"faces": {
+				"north": {"uv": [0, 8, 5, 10], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [0, 10, 5, 8], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [0, 8, 5, 10], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [0, 10, 5, 8], "rotation": 90, "texture": "#colony"},
+				"down": {"uv": [2, 12, 4, 14], "texture": "#colony", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Hat 3",
+			"from": [9, 5, 9],
+			"to": [15, 7, 15],
+			"faces": {
+				"north": {"uv": [14, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [14, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [14, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [14, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"up": {"uv": [6, 10, 12, 16], "rotation": 180, "texture": "#colony"},
+				"down": {"uv": [0, 10, 6, 16], "texture": "#colony"}
+			}
+		},
+		{
+			"name": "Hat 4",
+			"from": [2, 3, 1],
+			"to": [8, 5, 7],
+			"faces": {
+				"north": {"uv": [14, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [14, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [14, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [14, 10, 16, 16], "rotation": 90, "texture": "#colony"},
+				"up": {"uv": [6, 10, 12, 16], "texture": "#colony"},
+				"down": {"uv": [0, 10, 6, 16], "texture": "#colony"}
+			}
+		},
+		{
+			"name": "Stem 4",
+			"from": [4, 0, 3],
+			"to": [6, 3, 5],
+			"faces": {
+				"north": {"uv": [0, 8, 3, 10], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [0, 8, 3, 10], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [0, 8, 3, 10], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [0, 8, 3, 10], "rotation": 90, "texture": "#colony"},
+				"down": {"uv": [2, 12, 4, 14], "texture": "#colony", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Stem 5",
+			"from": [7, 0, 8],
+			"to": [9, 2, 10],
+			"faces": {
+				"north": {"uv": [0, 8, 2, 10], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [0, 8, 2, 10], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [0, 8, 2, 10], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [0, 8, 2, 10], "rotation": 90, "texture": "#colony"},
+				"down": {"uv": [2, 12, 4, 14], "texture": "#colony", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Hat 5",
+			"from": [6, 2, 7],
+			"to": [10, 4, 11],
+			"faces": {
+				"north": {"uv": [14, 9, 16, 13], "rotation": 90, "texture": "#colony"},
+				"east": {"uv": [14, 9, 16, 13], "rotation": 90, "texture": "#colony"},
+				"south": {"uv": [14, 9, 16, 13], "rotation": 90, "texture": "#colony"},
+				"west": {"uv": [14, 9, 16, 13], "rotation": 90, "texture": "#colony"},
+				"up": {"uv": [3, 3, 7, 7], "texture": "#colony"},
+				"down": {"uv": [12, 7, 16, 11], "rotation": 90, "texture": "#colony"}
+			}
+		}
+	]
+}

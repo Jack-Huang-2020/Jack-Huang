@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/crimson_fungus",
+		"fungus": "block/crimson_fungus"
+	},
+	"elements": [
+		{
+			"name": "Stem",
+			"from": [7, 0, 7],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [12, 2, 14, 6], "texture": "#fungus"},
+				"east": {"uv": [10, 2, 12, 6], "texture": "#fungus"},
+				"south": {"uv": [12, 2, 14, 6], "texture": "#fungus"},
+				"west": {"uv": [10, 2, 12, 6], "texture": "#fungus"},
+				"down": {"uv": [11, 11, 13, 13], "texture": "#fungus", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Cap Rim",
+			"from": [4, 4, 4],
+			"to": [12, 6, 12],
+			"faces": {
+				"north": {"uv": [0, 6, 8, 8], "texture": "#fungus"},
+				"east": {"uv": [0, 6, 8, 8], "texture": "#fungus"},
+				"south": {"uv": [0, 6, 8, 8], "texture": "#fungus"},
+				"west": {"uv": [0, 6, 8, 8], "texture": "#fungus"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#fungus"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#fungus"}
+			}
+		},
+		{
+			"name": "Cap Top",
+			"from": [5, 6, 5],
+			"to": [11, 10, 11],
+			"faces": {
+				"north": {"uv": [0, 8, 6, 12], "texture": "#fungus"},
+				"east": {"uv": [0, 12, 6, 16], "texture": "#fungus"},
+				"south": {"uv": [0, 8, 6, 12], "texture": "#fungus"},
+				"west": {"uv": [0, 12, 6, 16], "texture": "#fungus"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#fungus"}
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_boat_held",
+  "textures": {
+    "boat": "minecraft:entity/boat/pale_oak",
+    "particle": "minecraft:block/pale_oak_planks"
+  }
+}

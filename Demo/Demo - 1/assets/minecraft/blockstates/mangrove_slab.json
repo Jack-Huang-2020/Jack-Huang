@@ -1,0 +1,23 @@
+{
+  "variants":
+  {
+    "type=bottom":
+    [
+      { "model": "block/mangrove_slab", "weight": 2 },
+      { "model": "block/mangrove_slab_alt_1" },
+      { "model": "block/mangrove_slab_alt_2" }
+    ],
+    "type=top":
+    [
+      { "model": "block/mangrove_slab_top", "weight": 2 },
+      { "model": "block/mangrove_slab_top_alt_1" },
+      { "model": "block/mangrove_slab_top_alt_2" }
+    ],
+    "type=double":
+    [
+      { "model": "block/mangrove_planks", "weight": 2 },
+      { "model": "block/mangrove_planks_alt_1" },
+      { "model": "block/mangrove_planks_alt_2" }
+    ]
+  }
+}

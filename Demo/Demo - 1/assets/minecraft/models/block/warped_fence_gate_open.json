@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_fence_gate_open_custom",
+    "textures": {
+		"particle": "block/warped_planks",
+        "texture": "block/warped_fence"
+    }
+}

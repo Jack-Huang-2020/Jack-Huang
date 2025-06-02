@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_wall_side_custom_top",
+  "textures": {
+    "wall": "minecraft:block/stone_bricks_alt_3",
+    "wall_top": "minecraft:block/stone_brick_wall_top"
+  }
+}

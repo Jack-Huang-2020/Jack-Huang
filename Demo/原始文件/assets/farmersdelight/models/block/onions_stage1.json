@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/veg_stage1",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "veg": "farmersdelight:block/onions"
+  }
+}

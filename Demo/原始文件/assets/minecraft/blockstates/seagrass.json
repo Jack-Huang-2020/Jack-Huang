@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "":
+    [
+      {"model": "minecraft:block/seagrass"},
+      {"model": "minecraft:block/seagrass_alt_1"}
+    ]
+  }
+}

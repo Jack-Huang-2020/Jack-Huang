@@ -1,0 +1,13 @@
+{
+    "parent": "item/diagonal_rod_rotated",
+    "textures": {
+        "layer0": "item/tipped_arrow_head",
+        "layer1": "item/tipped_arrow_base"
+    },
+	"display": {
+        "fixed": {
+            "rotation": [ 0, 0, -90 ],
+            "scale": [ 1, 1, 1 ]
+        }
+    }
+}

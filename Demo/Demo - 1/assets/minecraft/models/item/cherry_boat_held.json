@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_boat_held",
+  "textures": {
+    "boat": "minecraft:entity/boat/cherry",
+    "particle": "minecraft:block/cherry_planks"
+  }
+}

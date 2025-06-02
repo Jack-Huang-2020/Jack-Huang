@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/stem_fruit",
+  "textures": {
+    "particle": "minecraft:block/pumpkin_stem",
+    "stem": "minecraft:block/pumpkin_stem_model"
+  }
+}

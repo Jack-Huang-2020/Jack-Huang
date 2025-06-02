@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/dark_oak_sapling",
+		"sapling": "block/dark_oak_sapling"
+	},
+	"elements": [
+		{
+			"name": "Leaves",
+			"from": [4, 5, 4],
+			"to": [12, 11, 12],
+			"faces": {
+				"north": {"uv": [0, 8, 6, 16], "rotation": 270, "texture": "#sapling"},
+				"east": {"uv": [0, 8, 6, 16], "rotation": 270, "texture": "#sapling"},
+				"south": {"uv": [0, 8, 6, 16], "rotation": 270, "texture": "#sapling"},
+				"west": {"uv": [0, 8, 6, 16], "rotation": 270, "texture": "#sapling"},
+				"up": {"uv": [8, 8, 16, 16], "texture": "#sapling"},
+				"down": {"uv": [0, 8, 6, 16], "rotation": 270, "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "Wood",
+			"from": [6, 0, 6],
+			"to": [10, 8, 10],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 8], "texture": "#sapling"},
+				"east": {"uv": [12, 0, 16, 8], "texture": "#sapling"},
+				"south": {"uv": [12, 0, 16, 8], "texture": "#sapling"},
+				"west": {"uv": [12, 0, 16, 8], "texture": "#sapling"},
+				"up": {"uv": [3, 2, 7, 6], "texture": "#sapling"},
+				"down": {"uv": [14, 6, 16, 8], "texture": "#sapling", "cullface": "down"}
+			}
+		},
+		{
+			"name": "CrossLeavesNS",
+			"from": [3, 4, 8],
+			"to": [13, 12, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 10, 8], "texture": "#sapling"},
+				"south": {"uv": [0, 0, 10, 8], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "CrossLeavesWE",
+			"from": [8, 4, 3],
+			"to": [8, 12, 13],
+			"faces": {
+				"east": {"uv": [0, 0, 10, 8], "texture": "#sapling"},
+				"west": {"uv": [0, 0, 10, 8], "texture": "#sapling"}
+			}
+		}
+	]
+}

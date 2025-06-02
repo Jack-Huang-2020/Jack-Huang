@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_glass_rod",
+    "textures": {
+        "glass": "block/pink_stained_glass"
+    }
+}

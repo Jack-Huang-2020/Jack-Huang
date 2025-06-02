@@ -1,0 +1,23 @@
+{
+  "variants":
+  {
+    "type=bottom":
+    [
+      { "model": "block/spruce_slab", "weight": 2 },
+      { "model": "block/spruce_slab_alt_1" },
+      { "model": "block/spruce_slab_alt_2" }
+    ],
+    "type=top":
+    [
+      { "model": "block/spruce_slab_top", "weight": 2 },
+      { "model": "block/spruce_slab_top_alt_1" },
+      { "model": "block/spruce_slab_top_alt_2" }
+    ],
+    "type=double":
+    [
+      { "model": "block/spruce_planks", "weight": 2 },
+      { "model": "block/spruce_planks_alt_1" },
+      { "model": "block/spruce_planks_alt_2" }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/pale_oak_sapling",
+		"sapling": "block/pale_oak_sapling"
+	},
+	"elements": [
+		{
+			"name": "leaves",
+			"from": [4, 6, 4],
+			"to": [12, 11, 12],
+			"faces": {
+				"north": {"uv": [0, 8, 5, 16], "rotation": 270, "texture": "#sapling"},
+				"east": {"uv": [0, 8, 5, 16], "rotation": 270, "texture": "#sapling"},
+				"south": {"uv": [0, 8, 5, 16], "rotation": 270, "texture": "#sapling"},
+				"west": {"uv": [0, 8, 5, 16], "rotation": 270, "texture": "#sapling"},
+				"up": {"uv": [8, 8, 16, 16], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves_inside_top",
+			"from": [4, 11, 4],
+			"to": [12, 11, 12],
+			"faces": {
+				"down": {"uv": [8, 16, 16, 8], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves_inside_n",
+			"from": [4, 6, 4],
+			"to": [12, 11, 4],
+			"faces": {
+				"south": {"uv": [0, 16, 5, 8], "rotation": 270, "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves_inside_s",
+			"from": [4, 6, 12],
+			"to": [12, 11, 12],
+			"faces": {
+				"north": {"uv": [0, 16, 5, 8], "rotation": 270, "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves_inside_w",
+			"from": [4, 6, 4],
+			"to": [4, 11, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 16, 5, 8], "rotation": 270, "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves_inside_e",
+			"from": [12, 6, 4],
+			"to": [12, 11, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"west": {"uv": [0, 16, 5, 8], "rotation": 270, "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "wood_bottom",
+			"from": [6, 0, 7],
+			"to": [9, 3, 10],
+			"faces": {
+				"north": {"uv": [13, 5, 16, 8], "texture": "#sapling"},
+				"east": {"uv": [13, 5, 16, 8], "texture": "#sapling"},
+				"south": {"uv": [13, 5, 16, 8], "texture": "#sapling"},
+				"west": {"uv": [13, 5, 16, 8], "texture": "#sapling"},
+				"up": {"uv": [10, 2, 13, 5], "texture": "#sapling"},
+				"down": {"uv": [10, 5, 13, 8], "texture": "#sapling", "cullface": "down"}
+			}
+		},
+		{
+			"name": "wood_top",
+			"from": [7, 3, 7],
+			"to": [9, 8, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 4, -1]},
+			"faces": {
+				"north": {"uv": [13, 0, 15, 5], "texture": "#sapling"},
+				"east": {"uv": [14, 0, 16, 5], "texture": "#sapling"},
+				"south": {"uv": [14, 0, 16, 5], "texture": "#sapling"},
+				"west": {"uv": [13, 0, 15, 5], "texture": "#sapling"},
+				"up": {"uv": [3, 2, 5, 4], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "x_leaves_ns",
+			"from": [3, 4, 8],
+			"to": [13, 12, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 10, 8], "texture": "#sapling"},
+				"south": {"uv": [0, 0, 10, 8], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "x_leaves_we",
+			"from": [8, 4, 3],
+			"to": [8, 12, 13],
+			"faces": {
+				"east": {"uv": [0, 0, 10, 8], "texture": "#sapling"},
+				"west": {"uv": [0, 0, 10, 8], "texture": "#sapling"}
+			}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "block/diorite_alt_2",
+        "top": "block/diorite_alt_2",
+        "side": "block/diorite_alt_2"
+    }
+}

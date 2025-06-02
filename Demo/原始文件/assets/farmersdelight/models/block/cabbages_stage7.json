@@ -1,0 +1,84 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "farmersdelight:block/crop_cross",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"cross": "farmersdelight:block/cabbages_stage7",
+		"particle": "farmersdelight:block/cabbages_top",
+		"top": "farmersdelight:block/cabbages_top"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 8],
+			"to": [15, 6, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 7, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [1, 9, 15, 15], "texture": "#cross"},
+				"south": {"uv": [1, 9, 15, 15], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, 1],
+			"to": [8, 6, 15],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 7, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [1, 9, 15, 15], "texture": "#cross"},
+				"west": {"uv": [1, 9, 15, 15], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [4, -1, 4],
+			"to": [12, 7, 12],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [4, 8, 12, 16], "texture": "#cross"},
+				"east": {"uv": [4, 8, 12, 16], "texture": "#cross"},
+				"south": {"uv": [4, 8, 12, 16], "texture": "#cross"},
+				"west": {"uv": [4, 8, 12, 16], "texture": "#cross"},
+				"up": {"uv": [16, 16, 8, 8], "texture": "#top"}
+			}
+		},
+		{
+			"from": [0, 0, 4],
+			"to": [4, 0, 12],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [4, 0, 8], "rescale": true},
+			"faces": {
+				"up": {"uv": [16, 8, 12, 0], "texture": "#top"},
+				"down": {"uv": [16, 8, 12, 0], "texture": "#top"}
+			}
+		},
+		{
+			"from": [12, 0, 4],
+			"to": [16, 0, 12],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [12, 0, 8], "rescale": true},
+			"faces": {
+				"up": {"uv": [16, 8, 12, 0], "rotation": 180, "texture": "#top"},
+				"down": {"uv": [16, 8, 12, 0], "rotation": 180, "texture": "#top"}
+			}
+		},
+		{
+			"from": [4, 0, 0],
+			"to": [12, 0, 4],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 0, 4], "rescale": true},
+			"faces": {
+				"up": {"uv": [16, 8, 12, 0], "rotation": 90, "texture": "#top"},
+				"down": {"uv": [16, 8, 12, 0], "rotation": 270, "texture": "#top"}
+			}
+		},
+		{
+			"from": [4, 0, 12],
+			"to": [12, 0, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 0, 12], "rescale": true},
+			"faces": {
+				"up": {"uv": [16, 8, 12, 0], "rotation": 270, "texture": "#top"},
+				"down": {"uv": [16, 8, 12, 0], "rotation": 90, "texture": "#top"}
+			}
+		}
+	]
+}

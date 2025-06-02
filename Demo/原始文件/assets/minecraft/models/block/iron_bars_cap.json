@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/iron_bars",
+		"bars": "block/iron_bars"
+	},
+	"elements": [
+		{
+			"name": "Vertical Bar",
+			"from": [8, 0, 8],
+			"to": [8, 16, 9],
+			"faces": {
+				"east": {"uv": [1, 0, 2, 16], "texture": "#bars"},
+				"west": {"uv": [2, 0, 3, 16], "texture": "#bars"}
+			}
+		},
+		{
+			"name": "Middle Bar End",
+			"from": [7, 7, 9],
+			"to": [9, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 15, 16]},
+			"faces": {
+				"south": {"uv": [14, 0, 16, 2], "texture": "#bars"}
+			}
+		}
+	]
+}

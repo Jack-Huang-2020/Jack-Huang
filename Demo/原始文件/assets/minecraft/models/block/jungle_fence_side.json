@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_fence_side_custom",
+    "textures": {
+		"particle": "block/jungle_planks",
+        "texture": "block/jungle_fence"
+    }
+}

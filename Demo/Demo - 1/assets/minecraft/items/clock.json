@@ -1,0 +1,265 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "entries": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_00"
+              },
+              "threshold": 0.0
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_01"
+              },
+              "threshold": 0.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_02"
+              },
+              "threshold": 1.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_03"
+              },
+              "threshold": 2.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_04"
+              },
+              "threshold": 3.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_05"
+              },
+              "threshold": 4.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_06"
+              },
+              "threshold": 5.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_07"
+              },
+              "threshold": 6.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_08"
+              },
+              "threshold": 7.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_09"
+              },
+              "threshold": 8.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_10"
+              },
+              "threshold": 9.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_11"
+              },
+              "threshold": 10.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_12"
+              },
+              "threshold": 11.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_13"
+              },
+              "threshold": 12.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_14"
+              },
+              "threshold": 13.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_15"
+              },
+              "threshold": 14.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/clock_00"
+              },
+              "threshold": 15.5
+            }
+          ],
+          "property": "minecraft:time",
+          "scale": 16.0,
+          "source": "daytime"
+        },
+        "when": "minecraft:overworld"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "entries": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_00"
+          },
+          "threshold": 0.0
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_01"
+          },
+          "threshold": 0.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_02"
+          },
+          "threshold": 1.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_03"
+          },
+          "threshold": 2.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_04"
+          },
+          "threshold": 3.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_05"
+          },
+          "threshold": 4.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_06"
+          },
+          "threshold": 5.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_07"
+          },
+          "threshold": 6.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_08"
+          },
+          "threshold": 7.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_09"
+          },
+          "threshold": 8.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_10"
+          },
+          "threshold": 9.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_11"
+          },
+          "threshold": 10.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_12"
+          },
+          "threshold": 11.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_13"
+          },
+          "threshold": 12.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_14"
+          },
+          "threshold": 13.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_15"
+          },
+          "threshold": 14.5
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/clock_00"
+          },
+          "threshold": 15.5
+        }
+      ],
+      "property": "minecraft:time",
+      "scale": 16.0,
+      "source": "random"
+    },
+    "property": "minecraft:context_dimension"
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/brewing_stand",
+		"brewing_stand": "block/brewing_stand"
+	},
+	"elements": [
+		{
+			"name": "Pipe Top",
+			"from": [7.5, 11, 5],
+			"to": [8.5, 12, 7],
+			"faces": {
+				"north": {"uv": [15, 1, 16, 2], "texture": "#brewing_stand"},
+				"east": {"uv": [14, 1, 16, 2], "texture": "#brewing_stand"},
+				"west": {"uv": [14, 1, 16, 2], "rotation": 180, "texture": "#brewing_stand"},
+				"up": {"uv": [14, 1, 16, 2], "rotation": 270, "texture": "#brewing_stand"},
+				"down": {"uv": [14, 1, 16, 2], "rotation": 90, "texture": "#brewing_stand"}
+			}
+		},
+		{
+			"name": "Pipe Bottom",
+			"from": [7.5, 5, 5],
+			"to": [8.5, 11, 6],
+			"faces": {
+				"north": {"uv": [5, 9, 6, 15], "texture": "#brewing_stand"},
+				"east": {"uv": [4, 9, 5, 15], "texture": "#brewing_stand"},
+				"south": {"uv": [4, 9, 5, 15], "texture": "#brewing_stand"},
+				"west": {"uv": [4, 9, 5, 15], "texture": "#brewing_stand"},
+				"down": {"uv": [15, 0, 16, 1], "texture": "#brewing_stand"}
+			}
+		}
+	]
+}

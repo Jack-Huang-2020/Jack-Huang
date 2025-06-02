@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"emissive": "block/warped_fungus_emissive",
+		"particle": "block/warped_fungus",
+		"fungus": "block/warped_fungus"
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [7, 0, 7],
+			"to": [9, 5, 9],
+			"faces": {
+				"north": {"uv": [12, 11, 14, 16], "texture": "#fungus"},
+				"east": {"uv": [14, 11, 16, 16], "texture": "#fungus"},
+				"south": {"uv": [12, 11, 14, 16], "texture": "#fungus"},
+				"west": {"uv": [14, 11, 16, 16], "texture": "#fungus"},
+				"down": {"uv": [11, 3, 13, 5], "texture": "#fungus", "cullface": "down"}
+			}
+		},
+		{
+			"name": "cap",
+			"from": [4, 5, 4],
+			"to": [12, 9, 12],
+			"faces": {
+				"north": {"uv": [0, 8, 8, 12], "texture": "#fungus"},
+				"east": {"uv": [0, 12, 8, 16], "texture": "#fungus"},
+				"south": {"uv": [0, 8, 8, 12], "texture": "#fungus"},
+				"west": {"uv": [0, 12, 8, 16], "texture": "#fungus"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#fungus"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#fungus"}
+			}
+		},
+		{
+			"name": "cap_emissive",
+			"from": [4, 5, 4],
+			"to": [12, 9, 12],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 8, 8, 12], "texture": "#emissive"},
+				"east": {"uv": [0, 12, 8, 16], "texture": "#emissive"},
+				"south": {"uv": [0, 8, 8, 12], "texture": "#emissive"},
+				"west": {"uv": [0, 12, 8, 16], "texture": "#emissive"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#emissive"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#emissive"}
+			}
+		}
+	]
+}

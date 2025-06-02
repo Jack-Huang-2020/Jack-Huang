@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/glass",
+		"glass": "block/glass",
+		"glass_side": "block/beacon_glass_side",
+		"base_side": "block/enchanting_table_side",
+		"base_bottom": "block/enchanting_table_bottom",
+		"beacon": "block/beacon"
+	},
+	"elements": [
+		{
+			"name": "Glass",
+			"from": [0, 3, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 13], "texture": "#glass_side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 13], "texture": "#glass_side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 13], "texture": "#glass_side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 13], "texture": "#glass_side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#glass", "cullface": "up"}
+			}
+		},
+		{
+			"name": "Base",
+			"from": [0, 0.1, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 13, 16, 16], "texture": "#base_side", "cullface": "north"},
+				"east": {"uv": [0, 13, 16, 16], "texture": "#base_side", "cullface": "east"},
+				"south": {"uv": [0, 13, 16, 16], "texture": "#base_side", "cullface": "south"},
+				"west": {"uv": [0, 13, 16, 16], "texture": "#base_side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#base_bottom"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#base_bottom"}
+			}
+		},
+		{
+			"name": "Crystal",
+			"from": [3, 3, 3],
+			"to": [13, 13, 13],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"east": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"south": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"west": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#beacon"}
+			}
+		}
+	]
+}

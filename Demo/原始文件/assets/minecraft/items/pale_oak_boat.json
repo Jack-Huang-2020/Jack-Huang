@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "thirdperson_lefthand",
+          "thirdperson_righthand",
+          "firstperson_lefthand",
+          "firstperson_righthand",
+          "head",
+          "ground"
+        ],
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/pale_oak_boat_held"
+        } 
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/pale_oak_boat"
+    }
+  }
+}

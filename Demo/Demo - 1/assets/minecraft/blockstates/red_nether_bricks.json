@@ -1,0 +1,12 @@
+{
+    "variants":
+	{
+        "":
+		[
+			{ "model": "block/red_nether_bricks" },
+			{ "model": "block/red_nether_bricks_alt_1" },
+			{ "model": "block/red_nether_bricks_alt_2" },
+			{ "model": "block/red_nether_bricks_alt_3" }
+		]
+    }
+}

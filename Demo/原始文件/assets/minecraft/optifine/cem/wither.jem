@@ -1,0 +1,78 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head1",
+			"id": "head1",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 20, -4, 8, 8, 8], "textureOffset": [32, 30]},
+				{"coordinates": [-3, 19, -4, 6, 1, 1], "textureOffset": [17, 52]}
+			]
+		},
+		{
+			"part": "head2",
+			"id": "head2",
+			"invertAxis": "xy",
+			"translate": [-8, -20, 0],
+			"boxes": [
+				{"coordinates": [7, 18.6, -2, 4, 4, 4], "textureOffset": [48, 12]}
+			]
+		},
+		{
+			"part": "head3",
+			"id": "head3",
+			"invertAxis": "xy",
+			"translate": [10, -20, 0],
+			"boxes": [
+				{"coordinates": [-11, 18.6, -2, 4, 4, 4], "textureOffset": [48, 12]}
+			]
+		},
+		{
+			"part": "body1",
+			"id": "body1",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 17.1, -2, 8, 2, 4], "textureOffset": [20, 56]},
+				{"coordinates": [-1, 17.1, -0.5, 2, 3, 3], "textureOffset": [54, 20]},
+				{"coordinates": [4, 17.6, -0.5, 5, 1, 1], "textureOffset": [0, 52]}
+			],
+			"submodels": [
+				{
+					"id": "body1_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-9, 17.6, -0.5, 5, 1, 1], "textureOffset": [0, 52]}
+					]
+				}
+			]
+		},
+		{
+			"part": "body2",
+			"id": "body2",
+			"invertAxis": "xy",
+			"translate": [-2, -17.1, 0.5],
+			"boxes": [
+				{"coordinates": [-1, 7.1, -0.5, 2, 10, 3], "textureOffset": [10, 51], "sizeAdd": 0.02},
+				{"coordinates": [0, 7.6, 2.5, 1, 9, 3], "textureOffset": [56, 26]},
+				{"coordinates": [-5, 12.1, -3, 10, 5, 5], "textureOffset": [34, 46]},
+				{"coordinates": [-4, 10.6, -2.5, 8, 2, 4], "textureOffset": [40, 58]},
+				{"coordinates": [-3.5, 8.1, 1.5, 7, 2, 0], "textureOffset": [20, 62]}
+			]
+		},
+		{
+			"part": "body3",
+			"id": "body3",
+			"invertAxis": "xy",
+			"translate": [-2, -7.1, 0.5],
+			"boxes": [
+				{"coordinates": [-1, 1.1, -0.5, 2, 6, 3], "textureOffset": [0, 55]}
+			]
+		}
+	]
+}

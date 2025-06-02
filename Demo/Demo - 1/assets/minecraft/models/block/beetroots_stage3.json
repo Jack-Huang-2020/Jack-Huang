@@ -1,0 +1,6 @@
+{
+    "parent": "block/veg_stage3",
+    "textures": {
+        "veg": "block/beetroots"
+    }
+}

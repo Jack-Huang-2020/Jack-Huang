@@ -1,0 +1,107 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/iron_bars_post_ends"
+      }
+    },
+    { 
+      "when": { "OR": [
+        {"north": "true", "east": "true" },
+        {"south": "true", "east": "true" },
+        {"north": "true", "west": "true" },
+        {"south": "true", "west": "true" },
+        {"west": "true", "east": "false", "south": "false", "north": "false"},
+        {"west": "false", "east": "true", "south": "false", "north": "false"},
+        {"west": "false", "east": "false", "south": "true", "north": "false"},
+        {"west": "false", "east": "false", "south": "false", "north": "true"},
+        {"west": "false", "east": "false", "south": "false", "north": "false"} ]
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_post"
+      }
+    },
+    {
+      "when": {
+        "west": "false",
+        "east": "false",
+        "south": "false",
+        "north": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_cap"
+      }
+    },
+    {
+      "when": {
+        "west": "false",
+        "east": "true",
+        "south": "false",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_cap",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": "false",
+        "east": "false",
+        "south": "true",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_cap",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "true",
+        "east": "false",
+        "south": "false",
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_cap",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/iron_bars_side",
+        "y": 270
+      }
+    }
+  ]
+}

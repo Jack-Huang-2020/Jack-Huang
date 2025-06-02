@@ -8,11 +8,9 @@
 
 ## 4. [视频变字符](Video%20to%20Unicode.py)
 
-## 5. [打乱材质包图片顺序](%E6%89%93%E4%B9%B1%E6%9D%90%E8%B4%A8%E5%8C%85%E5%9B%BE%E7%89%87%E9%A1%BA%E5%BA%8F.py) 使用方法：
+## 5. [打乱材质包图片顺序](%E6%89%93%E4%B9%B1%E6%9D%90%E8%B4%A8%E5%8C%85%E5%9B%BE%E7%89%87%E9%A1%BA%E5%BA%8F.py)
 
-```bash
-python 打乱材质包图片顺序.py "<目录路径>"
-```
+#### _(Demo 文件来自 [Whimscape](https://modrinth.com/resourcepack/whimscape?version=1.21.5) 材质包）_
 
 # 其他文档
 

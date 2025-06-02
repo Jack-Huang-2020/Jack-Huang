@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/brown_mushroom_block",
+		"mushroom": "block/brown_mushroom"
+	},
+	"elements": [
+		{
+			"name": "Hat",
+			"from": [5, 4, 5],
+			"to": [11, 6, 11],
+			"faces": {
+				"north": {"uv": [6, 8, 12, 10], "texture": "#mushroom"},
+				"east": {"uv": [6, 8, 12, 10], "texture": "#mushroom"},
+				"south": {"uv": [6, 8, 12, 10], "texture": "#mushroom"},
+				"west": {"uv": [6, 8, 12, 10], "texture": "#mushroom"},
+				"up": {"uv": [6, 10, 12, 16], "texture": "#mushroom"},
+				"down": {"uv": [0, 10, 6, 16], "texture": "#mushroom"}
+			}
+		},
+		{
+			"name": "Stem",
+			"from": [7, 0, 7],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [14, 11, 16, 15], "texture": "#mushroom"},
+				"east": {"uv": [12, 11, 14, 15], "texture": "#mushroom"},
+				"south": {"uv": [14, 11, 16, 15], "texture": "#mushroom"},
+				"west": {"uv": [12, 11, 14, 15], "texture": "#mushroom"},
+				"down": {"uv": [7, 3, 9, 5], "texture": "#mushroom", "cullface": "down"}
+			}
+		}
+	]
+}

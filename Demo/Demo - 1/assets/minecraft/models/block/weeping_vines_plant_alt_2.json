@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_emissive",
+  "textures": {
+    "cross": "minecraft:block/weeping_vines_plant_alt_2",
+    "cross_emissive": "minecraft:block/weeping_vines_plant_alt_2_emissive"
+  }
+}

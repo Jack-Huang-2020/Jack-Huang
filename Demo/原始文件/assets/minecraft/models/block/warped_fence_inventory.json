@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_fence_inventory_custom",
+    "textures": {
+        "texture": "block/warped_fence",
+        "particle": "block/warped_planks"
+    }
+}

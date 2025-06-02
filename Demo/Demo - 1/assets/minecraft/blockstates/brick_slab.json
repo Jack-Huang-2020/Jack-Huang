@@ -1,0 +1,23 @@
+{
+    "variants":
+	{
+        "type=bottom":
+		[
+			{ "model": "block/brick_slab", "weight": 8 },
+			{ "model": "block/brick_slab_alt_1" },
+			{ "model": "block/brick_slab_alt_2" }
+		],
+        "type=top":
+		[
+			{ "model": "block/brick_slab_top", "weight": 8 },
+			{ "model": "block/brick_slab_top_alt_1" },
+			{ "model": "block/brick_slab_top_alt_2" }
+		],
+        "type=double":
+		[
+			{ "model": "block/bricks", "weight": 8 },
+			{ "model": "block/bricks_alt_1" },
+			{ "model": "block/bricks_alt_2" }
+		]
+    }
+}

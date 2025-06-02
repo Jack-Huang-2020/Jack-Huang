@@ -1,0 +1,15 @@
+{
+    "variants":
+	{
+        "":
+		[
+			{ "model": "block/chiseled_sandstone" },
+			{ "model": "block/chiseled_sandstone_alt_1" },
+			{ "model": "block/chiseled_sandstone_alt_2" },
+			{ "model": "block/chiseled_sandstone_alt_3" },
+			{ "model": "block/chiseled_sandstone_alt_4" },
+			{ "model": "block/chiseled_sandstone_alt_5" },
+			{ "model": "block/chiseled_sandstone_alt_6" }
+		]
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "variants":
+  {
+    "type=bottom":
+    [
+      { "model": "block/pale_oak_slab", "weight": 2 },
+      { "model": "block/pale_oak_slab_alt_1" },
+      { "model": "block/pale_oak_slab_alt_2" }
+    ],
+    "type=top":
+    [
+      { "model": "block/pale_oak_slab_top", "weight": 2 },
+      { "model": "block/pale_oak_slab_top_alt_1" },
+      { "model": "block/pale_oak_slab_top_alt_2" }
+    ],
+    "type=double":
+    [
+      { "model": "block/pale_oak_planks", "weight": 2 },
+      { "model": "block/pale_oak_planks_alt_1" },
+      { "model": "block/pale_oak_planks_alt_2" }
+    ]
+  }
+}

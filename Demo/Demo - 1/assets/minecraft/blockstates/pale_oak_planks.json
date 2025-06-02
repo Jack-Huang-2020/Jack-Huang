@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      { "model": "minecraft:block/pale_oak_planks", "weight": 2 },
+      { "model": "minecraft:block/pale_oak_planks_alt_1" },
+      { "model": "minecraft:block/pale_oak_planks_alt_2" }
+    ]
+  }
+}

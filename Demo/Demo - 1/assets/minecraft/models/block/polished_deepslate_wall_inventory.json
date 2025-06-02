@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/wall_inventory_custom",
+  "textures": {
+    "wall": "minecraft:block/polished_deepslate",
+    "wall_top": "minecraft:block/polished_deepslate_wall_top",
+    "post": "minecraft:block/polished_deepslate_wall_post"
+  }
+}

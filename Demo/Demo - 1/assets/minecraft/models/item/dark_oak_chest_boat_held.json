@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_chest_boat_held",
+  "textures": {
+    "boat": "minecraft:entity/chest_boat/dark_oak",
+    "particle": "minecraft:block/dark_oak_planks"
+  }
+}

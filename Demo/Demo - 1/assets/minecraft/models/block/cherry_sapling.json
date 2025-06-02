@@ -1,0 +1,106 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/cherry_sapling",
+		"sapling": "block/cherry_sapling"
+	},
+	"elements": [
+		{
+			"name": "wood_bottom",
+			"from": [8, 0, 8],
+			"to": [10, 5, 10],
+			"faces": {
+				"north": {"uv": [14, 11, 16, 16], "texture": "#sapling"},
+				"east": {"uv": [16, 11, 14, 16], "texture": "#sapling"},
+				"south": {"uv": [14, 11, 16, 16], "texture": "#sapling"},
+				"west": {"uv": [16, 11, 14, 16], "texture": "#sapling"},
+				"up": {"uv": [12, 12, 14, 14], "texture": "#sapling"},
+				"down": {"uv": [12, 14, 14, 16], "texture": "#sapling", "cullface": "down"}
+			}
+		},
+		{
+			"name": "wood_middle",
+			"from": [6, 3, 8],
+			"to": [8, 5, 10],
+			"faces": {
+				"south": {"uv": [10, 12, 12, 14], "texture": "#sapling"},
+				"west": {"uv": [10, 10, 12, 12], "texture": "#sapling"},
+				"up": {"uv": [10, 8, 12, 10], "texture": "#sapling"},
+				"down": {"uv": [10, 14, 12, 16], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "wood_top",
+			"from": [6, 3, 6],
+			"to": [8, 9, 8],
+			"faces": {
+				"north": {"uv": [12, 0, 14, 6], "texture": "#sapling"},
+				"east": {"uv": [12, 6, 14, 12], "texture": "#sapling"},
+				"south": {"uv": [12, 0, 14, 6], "texture": "#sapling"},
+				"west": {"uv": [14, 0, 16, 6], "texture": "#sapling"},
+				"up": {"uv": [10, 6, 12, 8], "texture": "#sapling"},
+				"down": {"uv": [14, 0, 16, 2], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "wood_small",
+			"from": [9, 4, 10],
+			"to": [10, 7, 11],
+			"faces": {
+				"north": {"uv": [13, 1, 14, 4], "texture": "#sapling"},
+				"east": {"uv": [13, 1, 14, 4], "texture": "#sapling"},
+				"south": {"uv": [13, 1, 14, 4], "texture": "#sapling"},
+				"west": {"uv": [13, 1, 14, 4], "texture": "#sapling"},
+				"up": {"uv": [13, 0, 14, 1], "texture": "#sapling"},
+				"down": {"uv": [13, 4, 14, 5], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves_big",
+			"from": [2, 8, 2],
+			"to": [12, 12, 12],
+			"faces": {
+				"north": {"uv": [0, 12, 10, 16], "texture": "#sapling"},
+				"east": {"uv": [0, 12, 10, 16], "texture": "#sapling"},
+				"south": {"uv": [0, 12, 10, 16], "texture": "#sapling"},
+				"west": {"uv": [0, 12, 10, 16], "texture": "#sapling"},
+				"up": {"uv": [0, 6, 10, 16], "texture": "#sapling"},
+				"down": {"uv": [0, 6, 10, 16], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves_small",
+			"from": [7, 6, 7],
+			"to": [14, 9, 14],
+			"faces": {
+				"north": {"uv": [8, 13, 1, 10], "texture": "#sapling"},
+				"east": {"uv": [10, 13, 3, 16], "texture": "#sapling"},
+				"south": {"uv": [2, 13, 9, 16], "texture": "#sapling"},
+				"west": {"uv": [1, 13, 8, 10], "texture": "#sapling"},
+				"up": {"uv": [1, 9, 8, 16], "texture": "#sapling"},
+				"down": {"uv": [1, 9, 8, 16], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves_cross_ns",
+			"from": [7, 7, 1],
+			"to": [7, 13, 13],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [0, 0, 12, 6], "texture": "#sapling"},
+				"west": {"uv": [0, 0, 12, 6], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves_cross_we",
+			"from": [1, 7, 7],
+			"to": [13, 13, 7],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [12, 0, 0, 6], "texture": "#sapling"},
+				"south": {"uv": [12, 0, 0, 6], "texture": "#sapling"}
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "variants":
+  {
+    "type=bottom":
+    [
+      { "model": "block/jungle_slab", "weight": 2 },
+      { "model": "block/jungle_slab_alt_1" },
+      { "model": "block/jungle_slab_alt_2" }
+    ],
+    "type=top":
+    [
+      { "model": "block/jungle_slab_top", "weight": 2 },
+      { "model": "block/jungle_slab_top_alt_1" },
+      { "model": "block/jungle_slab_top_alt_2" }
+    ],
+    "type=double":
+    [
+      { "model": "block/jungle_planks", "weight": 2 },
+      { "model": "block/jungle_planks_alt_1" },
+      { "model": "block/jungle_planks_alt_2" }
+    ]
+  }
+}

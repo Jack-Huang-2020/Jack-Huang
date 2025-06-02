@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "":
+		[
+			{ "model": "block/soul_sand", "weight": 21 },
+			{ "model": "block/soul_sand_alt_1", "weight": 1 },
+			{ "model": "block/soul_sand_alt_2", "weight": 1 },
+			{ "model": "block/soul_sand_alt_3", "weight": 1 },
+			{ "model": "block/soul_sand_alt_4", "weight": 1 }
+		]
+    }
+}

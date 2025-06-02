@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_flipped",
+    "textures": {
+        "layer0": "item/diamond_sword"
+    }
+}

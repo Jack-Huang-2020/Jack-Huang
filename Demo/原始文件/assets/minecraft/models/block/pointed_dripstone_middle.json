@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"dripstone": "block/pointed_dripstone_model_middle",
+		"particle": "block/dripstone_block"
+	},
+	"elements": [
+		{
+			"from": [3, 8, 3],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [0, 8, 9, 16], "texture": "#dripstone"},
+				"east": {"uv": [0, 8, 9, 16], "texture": "#dripstone"},
+				"south": {"uv": [0, 8, 9, 16], "texture": "#dripstone"},
+				"west": {"uv": [0, 8, 9, 16], "texture": "#dripstone"},
+				"up": {"uv": [7, 0, 16, 9], "texture": "#dripstone"},
+				"down": {"uv": [7, 0, 16, 9], "texture": "#dripstone"}
+			}
+		},
+		{
+			"from": [3, 0, 4],
+			"to": [12, 8, 13],
+			"faces": {
+				"north": {"uv": [0, 8, 9, 16], "texture": "#dripstone"},
+				"east": {"uv": [0, 8, 9, 16], "texture": "#dripstone"},
+				"south": {"uv": [0, 8, 9, 16], "texture": "#dripstone"},
+				"west": {"uv": [0, 8, 9, 16], "texture": "#dripstone"},
+				"up": {"uv": [7, 0, 16, 9], "texture": "#dripstone"},
+				"down": {"uv": [7, 0, 16, 9], "texture": "#dripstone"}
+			}
+		}
+	]
+}

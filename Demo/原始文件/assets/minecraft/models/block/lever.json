@@ -1,0 +1,61 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"lever": "block/lever",
+		"particle": "block/stone_bricks"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [5, 0, 4],
+			"to": [11, 3, 12],
+			"faces": {
+				"north": {"uv": [0, 10, 3, 16], "rotation": 270, "texture": "#lever"},
+				"east": {"uv": [0, 8, 3, 16], "rotation": 270, "texture": "#lever"},
+				"south": {"uv": [9, 10, 12, 16], "rotation": 90, "texture": "#lever"},
+				"west": {"uv": [9, 8, 12, 16], "rotation": 90, "texture": "#lever"},
+				"up": {"uv": [3, 8, 9, 16], "rotation": 180, "texture": "#lever"},
+				"down": {"uv": [10, 0, 16, 8], "texture": "#lever", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Stick",
+			"from": [7, 2.4142, 7.4142],
+			"to": [9, 10.4142, 9.4142],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [16, 8, 14, 16], "texture": "#lever"},
+				"east": {"uv": [14, 8, 16, 16], "texture": "#lever"},
+				"south": {"uv": [16, 8, 14, 16], "texture": "#lever"},
+				"west": {"uv": [14, 8, 16, 16], "texture": "#lever"},
+				"up": {"uv": [12, 8, 14, 10], "texture": "#lever"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, -135, 0],
+			"translation": [0, 2, 3.25],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [-90, 0, 135],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -3],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

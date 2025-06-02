@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_wall_post_custom",
+  "textures": {
+    "wall": "minecraft:block/end_stone_bricks",
+    "post": "minecraft:block/end_stone_brick_wall_post"
+  }
+}

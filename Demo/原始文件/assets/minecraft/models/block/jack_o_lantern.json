@@ -1,0 +1,100 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"front": "block/jack_o_lantern",
+		"particle": "block/pumpkin_side",
+		"side": "block/pumpkin_side",
+		"top": "block/pumpkin_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "down"}
+			}
+		},
+		{
+			"name": "emissive_right_eye",
+			"from": [10, 9, -0.02],
+			"to": [13, 12, -0.02],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [3, 4, 6, 7], "texture": "#front", "cullface": "north"}
+			}
+		},
+		{
+			"name": "emissive_left_eye",
+			"from": [3, 9, -0.02],
+			"to": [6, 12, -0.02],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [10, 4, 13, 7], "texture": "#front", "cullface": "north"}
+			}
+		},
+		{
+			"name": "emissive_mouth_1",
+			"from": [11, 2, -0.02],
+			"to": [12, 5, -0.02],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [4, 11, 5, 14], "texture": "#front", "cullface": "north"}
+			}
+		},
+		{
+			"name": "emissive_mouth_2",
+			"from": [10, 3, -0.02],
+			"to": [11, 6, -0.02],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [5, 10, 6, 13], "texture": "#front", "cullface": "north"}
+			}
+		},
+		{
+			"name": "emissive_mouth_3",
+			"from": [6, 4, -0.02],
+			"to": [10, 7, -0.02],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [6, 9, 10, 12], "texture": "#front", "cullface": "north"}
+			}
+		},
+		{
+			"name": "emissive_mouth_4",
+			"from": [5, 3, -0.02],
+			"to": [6, 6, -0.02],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [10, 10, 11, 13], "texture": "#front", "cullface": "north"}
+			}
+		},
+		{
+			"name": "emissive_mouth_5",
+			"from": [4, 2, -0.02],
+			"to": [5, 5, -0.02],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [11, 11, 12, 14], "texture": "#front", "cullface": "north"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

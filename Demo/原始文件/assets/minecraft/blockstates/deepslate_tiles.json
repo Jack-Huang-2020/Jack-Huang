@@ -1,0 +1,10 @@
+{
+  "variants":
+  {
+    "":
+    [
+      { "model": "minecraft:block/deepslate_tiles" },
+      { "model": "minecraft:block/deepslate_tiles_alt_1" }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "side": "block/warped_wart_block_alt_1",
+		"end": "block/warped_wart_block_top_alt_1"
+    }
+}
