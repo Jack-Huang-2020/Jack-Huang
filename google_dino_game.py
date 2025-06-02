@@ -75,8 +75,6 @@ def main():
     spawn_timer = 0
     next_spawn_interval = random.randint(40, 100)  # 初始随机间隔
     score = 0
-    if score >= 2:
-        FPS + 10
 
     running = True
     game_active = True
