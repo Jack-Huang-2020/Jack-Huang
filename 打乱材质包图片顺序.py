@@ -39,7 +39,7 @@ def shuffle_png_in_directory(root_dir):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("使用方法：python shuffle_png.py <目录路径>")
+        print("使用方法：python 打乱材质包图片顺序.py <目录路径>")
         sys.exit(1)
 
     target_dir = sys.argv[1]
